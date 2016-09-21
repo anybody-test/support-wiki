@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 Installation Procedure
 ===
 ### Access to the software:
