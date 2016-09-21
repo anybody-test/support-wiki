@@ -4,9 +4,9 @@ This wiki is all about supporting the AnyScript modeling language and AnyBody Mo
 
 '''Feel free to add!'''
 
+More Tips & Tricks can be found on the (AnyBody YouTube channel)[http://www.youtube.com/user/anybodytech]
 
-More Tips & Tricks can be found on the [http://www.youtube.com/user/anybodytech AnyBody YouTube channel]
-==  ==
+---
 General use of AnyBody
 * [[General description of AnyBody]]
 * [[AnyBody - AMS Basics]]
