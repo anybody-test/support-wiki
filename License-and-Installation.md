@@ -1,3 +1,20 @@
+- [Installation Procedure](#installation-procedure)
+    + [Access to the software:](#access-to-the-software-)
+    + [Install and launch AnyBody:](#install-and-launch-anybody-)
+    + [Register your license(s):](#register-your-license-s--)
+- [Some license related problems and solutions](#some-license-related-problems-and-solutions)
+    + [License Status: "Bad signature in license (-5)"](#license-status---bad-signature-in-license---5--)
+    + [License Status: "No license check or No authorization for product or License server doesn’t support this. Make sure you have imported a valid license file."](#license-status---no-license-check-or-no-authorization-for-product-or-license-server-doesn-t-support-this-make-sure-you-have-imported-a-valid-license-file-)
+    + [License Status: "All licenses in use (-22)"](#license-status---all-licenses-in-use---22--)
+    + [License Status: "Wrong host for license (-4)"](#license-status---wrong-host-for-license---4--)
+    + [License Status: "Communication with server failed! Please make sure the server has been started."](#license-status---communication-with-server-failed--please-make-sure-the-server-has-been-started-)
+    + [How to make the license work for FE converters](#how-to-make-the-license-work-for-fe-converters)
+- [Typical Problems](#typical-problems)
+    + [It is impossible to contact the server from the client althought the server is available from the network, with service started:](#it-is-impossible-to-contact-the-server-from-the-client-althought-the-server-is-available-from-the-network--with-service-started-)
+    + [Which port should be used when a 2nd RLM service already uses port 5054 on the same server?:](#which-port-should-be-used-when-a-2nd-rlm-service-already-uses-port-5054-on-the-same-server--)
+
+
+
 Installation Procedure
 ---
 
@@ -7,9 +24,9 @@ A self-installing exe file is available at
 www.anybodytech.com/download.html?did=anybody.overview.
 
 Notice:
-• It requires AnyBodyTM Web-user login. If you are not a registered web-user already, you
+* It requires AnyBodyTM Web-user login. If you are not a registered web-user already, you
 must register an account on the login page.
-• The setup file is typically called AnyBodySetup.v1.v2.v3.v4.exe, where v1, v2, v3, and v4
+* The setup file is typically called AnyBodySetup.v1.v2.v3.v4.exe, where v1, v2, v3, and v4
 are digits of the version number. The setup file for the 64 bit version of AnyBodyTM is called
 AnyBodySetup.v1.v2.v3.v4x64:exe:
 
@@ -65,10 +82,10 @@ The license file has been violated, e.g. manually edited, and is no longer valid
 (b) The product name for the license is wrong. A new license file is required.
 (a) No license file has been imported in the client computers. Please refer to License status below of this guide.
 
-### License Status: "All licenses in use (-22)"
+#### License Status: "All licenses in use (-22)"
 (a) Too many license instances have been checked out. Each instance of AnyBodyTM count as one license check-out, even two instances on the same computer. This is related to counted licenses only.
 
-### License Status: "Wrong host for license (-4)"
+#### License Status: "Wrong host for license (-4)"
 (a) The license file is used by the wrong host, i.e., on the wrong computer.
 (b) License is linked to a hardware dongle, which is missing or not accepted on the computer (drivers missing).
 (c) Wrong dongle is used.
