@@ -14,6 +14,7 @@ Please try the following
 
 
 If the input to the interpolation function is a kinematic measure (for example MyInterpolFun(MyKinMeasure.Pos[0]) you need to ensure that:
+
 1. T vector must contain 0 because when the model loads any kinematic measure is zero and it will make a call to the interpolation function with zero
 2. T vector must contain the value of your kinematic measure when all segments are in loading positions. The reason is that this is where the kinematic analysis starts and the interpolation function will be calculated for every step the solver needs to approach the solution
 
@@ -30,6 +31,7 @@ To add a reference system to a node or a segment in the body model, the followin
 Alternatively, skip item one and add the AnyDrawRefFrame directly in the segment or node itself.
 
 If you do not remember the full name of the object you can do two things:
+
 1. double click on the object in the ModelView it will automatically open the ModelTree highlighting the object which was clicked. Then right click on the highlighted object and select "Copy->Copy Complete Name" and paste in the name.
 2. open the ModelTree and expand it until you have found the object, then click "Copy->Copy Complete Name" and paste in the name.
 
@@ -52,6 +54,7 @@ The description below is generic and applies to all type of models. If your mode
 
 #### Overdeterminate solver returning NaN
 If the kinematic analysis fails and returns NaN it can be caused by these things:
+
 1. A model containing two redundant kinematic constraints (Hard) which are perfectly identical will cause a NaN error. So if you have two identical revolute joints it may cause this. 
 2. In some cases it may return this error if a driver is missing for a DOF in the model, so certain dof in the model is not driven. For example if there are no markers on the hand and there are no drivers on the wrist it may cause this error, because the rotations of the hand are undetermined.
 
@@ -73,6 +76,7 @@ Sometimes wrapping of the muscles may cause the solver to fail and it will give 
 Typically what may happen is that a muscle may slide onto the end cap of a wrapping cylinder and fail. Usually the muscles are not intended to wrap on the cylinder end caps.  
 
 In general the remedy is to 
+
 1. Exclude all muscles from the model except the one causing the problem.
 2. Insert an AnyDrawParamSurface in the surface being penetrated to visualize it you can do this directly in the muscle. Typically by writing Surf1={ AnyDrawParamSurf drw={}; }; //assuming a Surf1 reference is existing! 
 3. Try to understand the root of the problem, whether it is related to scaling or motion. 
@@ -89,14 +93,17 @@ A wrapping muscle is presumed to have an origin and an insertion just like the v
 Sometimes one or some of the points defining a muscle turn out to be located inside one of the surfaces that the muscle can wrap on. In general this should be avoided because a part of the muscle path will be located inside the surface and this part of the path becomes unpredictable.
 
 The penetration errors can occur at different times:
+
 1. They may happen at load time when the model is in its initial position. If they only occur in this position they are not important. It just means the initial posture creates penetration. 
 2. They may occur when running inverse analysis of the model. This can be important.
 
 There can be different reasons for this, including:
+
 1. If for example the arm is penetrating the thorax this may give a penetration warning. This is not an error related to the Body model but related to the way the model is being used. Here the remedy is to change the drivers of the model. 
 2. In principle all surfaces in the model used for wrapping have been made in a way that makes them scale with the model. When defining a cylinder it is typically defined using three nodes. These nodes control the size and location of the cylinder. When the bone is scaled, these control nodes will also be scaled like any other node on the bone and consequently the cylinder will be scaled too. Ellipsoids are made in a similar way. This setup does not guarantee that penetration errors will never occur. If the via point and the surface are located on the same bone and are very close, different types of scaling and sizes could potentially create penetration errors. 
 
 In general the remedy is to 
+
 1. Exclude all muscles from the model except the one causing the problem.
 2. Insert an AnyDrawParamSurface in the surface being penetrated to visualize it you can do this directly in the muscle. Typically by writing Surf1={ AnyDrawParamSurf drw={}; }; //assuming a Surf1 reference is existing! 
 3. Insert an AnyDrawRefFrame in the node which is penetrating. 
