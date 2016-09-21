@@ -1,2 +1,91 @@
-<!-- --- title: My page title -->
-Welcome to the support wiki!
+### AnyScript Support Wiki
+
+This wiki is all about supporting the AnyScript modeling language and AnyBody Modeling System™
+
+'''Feel free to add!'''
+
+
+More Tips & Tricks can be found on the [http://www.youtube.com/user/anybodytech AnyBody YouTube channel]
+==  ==
+General use of AnyBody
+* [[General description of AnyBody]]
+* [[AnyBody - AMS Basics]]
+* [[AnyBody - How to get the AMMR?]]
+* [[AnyBody - Medical terms]]
+* [[Requirements for the AnyBody Modeling System]]
+* [[License and Installation]]
+
+
+AMS Tips and Tricks:
+* [[Model trouble shooting]]
+* [[All about Kinematics]]
+* [[All about Kinetics]]
+* [[All about AnyBody Modeling System]]
+* [[All about Muscles]]
+
+
+AMS advanced features:
+* [[All about Force Dependent Kinematics]]
+* [[All about FrictionContactMuscles]]
+* [[All about Surface Contact Modeling]]
+* [[Running several files as batch]]
+* [[Saving output files with index in name in parameter studies]]
+* [[How to add a rotating camera to record a model]]
+* [http://wiki.anyscript.org/images/2/2a/AddingGRFpredictiontoaMoCapmodel.pdf Add ground reaction force prediction to a model]
+* [[Caching result of muscle calibration]]
+
+
+Model and Validation:
+* [[AnyBody Body Model]]
+* [[Validation examples]]
+* [[FAQ about Repository & Validation]]
+* [[How to setup your own MoCap driven Model]] (AMMRv1.5 GaitLower)
+* [[NEW: How to setup your own MoCap driven Model]] (AMMRv1.6 MoCap Model)
+* [[How to use and adapt the StandingModel]]
+* [[Loading AMMR 1.5 models in AMS 6.0]]
+* [[How to make a KneeBend Model from a template]]
+* [[How to use the AnyBody-GlasgowMaastricht foot model (Foot-GM)]]
+
+
+Webcast Examples:
+* [[Example from the exoskeleton webcast]]
+* [[Example from the Man-Machine webcast]]
+* [[Example from the Personalize your musculoskeletal models webcast]]
+* [[Example from the Personalize your musculoskeletal models webcast]]
+* [[Example from the Musculoskeletal Modelling from Scratch webcast]]
+
+
+AnyGait:
+* [[General Remarks]]
+* [[Using AnyGait]]
+* [[Changing AnyGait]]
+
+
+AnyBody/ AnyBody interfaces/ other tools:
+* [[How to install and load SolidWorks2AnyBody]]
+* [[Using Notepad++ to edit AnyScipt]]
+* [[All about Finite Element interface]]
+* [[All about including a Python Hook]]
+* [[Animated GIF files from AnyBody]]
+
+
+User contributed models not in AMMR:
+* [[Wait and see]] 
+
+
+Using AnyBody from external programs:
+* [http://nbviewer.ipython.org/github/AnyBody-Research-Group/AnyPyTools/blob/master/Tutorial/00_AnyPyTools_tutorial.ipynb How to use AnyBody from Python ]
+
+
+Error Messages
+* [[General]]
+
+
+Resources:
+* [http://www.anybodytech.com/index.php?id=716 Publications using AnyBody]
+
+
+Other useful Information:
+* [[Guidelines: how to contribute to the wiki]]
+
+<img src="https://cloud.githubusercontent.com/assets/1038978/18725283/e7d55860-803f-11e6-8053-56d3fb8849c9.png" alt="Relax" style="height: 150px;">
