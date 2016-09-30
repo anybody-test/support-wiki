@@ -8,7 +8,7 @@ More Tips & Tricks can be found on the (AnyBody YouTube channel)[http://www.yout
 General use of AnyBody
 * [[General description of AnyBody]]
 * [[AMS Basics]]
-* [[AnyBody How to get the AMMR]]?
+* [[AnyBody - How to get the AMMR]]?
 * [[AnyBody - Medical terms]]
 * [[Requirements for the AnyBody Modeling System]]
 * [[License and Installation]]
