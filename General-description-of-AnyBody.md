@@ -1,4 +1,4 @@
-###General Introduction into the AnyBody Modeling System:**
+###General Introduction into the AnyBody Modeling System:
 
 
 1.	The AnyBody Modeling System is a **MusculoSkeletal Modeling System** for bio-mechanical simulations analyzing reactions within the human body or between the human body and an environment. Environment can be
