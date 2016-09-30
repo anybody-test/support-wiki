@@ -55,7 +55,7 @@ of these rotations is important, and that any rotation subsequent to the first i
 
 Try to run the model and notice the way the coordinate systems are rotated.
 
-[[Media:AnyKinRotationalRotAxesAngles.any]]
+[AnyKinRotationalRotAxesAngles.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyKinRotationalRotAxesAngles.any)
 
 
 ### How to drive an AnyKinRotational Cardan angles (Type=RotAxesAngles) 
@@ -80,9 +80,9 @@ This is a small example made to illustrate the differences between the interpola
  
 
 Try to shift between the different types and you will see the differences it makes on the path of the line. You can choose between the types:
-•	Piecewise linear
-•	Bezier
-•	bSpline
+* Piecewise linear
+* Bezier
+* bSpline
 
 The types can be changed in the "Driver" object 
 
@@ -147,7 +147,7 @@ The picture shows a sketch of the joint.
 
 The second method is more general and implements the equation of an ellipsoid directly. It uses a linear measure between the center of the ellipsoid and the point. The three components of this measure are inserted into a Norm Combination Measure, i.e. a measure that computes the powersum of its components. If we use the power of 2 and use the ellipsoid axis lengths as weight factors on the three components, then we can exactly express the ellipsoid equation:
 
-x^2/a + y^2/b + z^2/c = 1.
+$x^2/a + y^2/b + z^2/c = 1.$
 
 Here's an example model.
 [[Media:Ellipsoid.any]]
@@ -223,27 +223,21 @@ AnyBody cannot manipulate those trajectory lines. Vicon might actually be able t
 This can be done in the following ways 
 
 Method1 :
+
+```
 AnyKinLinear FemurToHipLin ={
-
-Ref=0; //measure in first listed ref frame 
-
-AnyRefNode  &femur=….Thigh.node;
-
-AnyRefNode  &pelvis=….Pelvis.node;
-
+  Ref=0; //measure in first listed ref frame 
+  AnyRefNode  &femur=….Thigh.node;
+  AnyRefNode  &pelvis=….Pelvis.node;
 };
 
 
 AnyKinRotational FemurToHipRot ={
-
-AnyRefNode  &femur=….Thigh.node;
-
-AnyRefNode  &pelvis=….Pelvis.node;
-
-Type=RotAxesAngles;
-
+  AnyRefNode  &femur=….Thigh.node;
+  AnyRefNode  &pelvis=….Pelvis.node;
+  Type=RotAxesAngles;
 };
-
+```
 
 Method2 :
 
