@@ -136,7 +136,7 @@ The first thing to do is to create a AnyForceMomentMeasure which is an object wh
 These following lines in an example of it use, there is a reference to the forces we want to measures in this case the reactions from a joint, and there is a reference to the node we would like to measure this force in. 
 ```
   AnyForceMomentMeasure JointReactionMeasure =  {
-      AnyForceBase &ref1=.jnt.Constraints.Reaction; //this is a reference        to the constraints of the joint
+      AnyForceBase &ref1=.jnt.Constraints.Reaction; //this is a reference to the constraints of the joint
       AnyRefNode &ref2=.Arm.node1;
     };
 ```
