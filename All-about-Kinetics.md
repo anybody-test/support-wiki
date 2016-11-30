@@ -134,16 +134,16 @@ Usually it is not recommended to change the joint itself because it may have man
 The first thing to do is to create a AnyForceMomentMeasure which is an object which can be used for measuring forces and moments which are applied to a certain reference frame. The output from this object is a force and moment measured in the global reference frame. 
 
 These following lines in an example of it use, there is a reference to the forces we want to measures in this case the reactions from a joint, and there is a reference to the node we would like to measure this force in. 
-
+```
   AnyForceMomentMeasure JointReactionMeasure =  {
       AnyForceBase &ref1=.jnt.Constraints.Reaction; //this is a reference        to the constraints of the joint
       AnyRefNode &ref2=.Arm.node1;
     };
-    
+```
 Output is as mentioned above a force and moment vector measured in globalref, so if we would like to have the vector displayed in another coordinate system we have to multiply by this coordinate systems rotation matrix. An example of this is shown here:
- 
+ ```
     Vec = .JointReactionMeasure.F*.Arm.node1.Axes;
-
+ ```
 In the sample file named AnyForceMomentMeasure.any a small example can be found that illustrates this.
 
 File: AnyForceMomentMeasure.any
