@@ -5,7 +5,9 @@ There is no statistical post-processing included in the models. However, Anybody
 ## What variable of the muscle in our simulation results is equivalent to the EMG data at real time, Fm, Ft, Muscle activity, average activity or any ?
 
 Muscle activity can be compared to EMG (and has been done in several occasions) please have look here:
-http://wiki.anyscript.org/index.php/Validation_examples
+
+https://github.com/AnyBody/support/wiki/Validation-examples
+
 http://wiki.anyscript.org/index.php/...%26_Validation
 
 ## Does Overload Muscle Configuration causes error in the analysis?
