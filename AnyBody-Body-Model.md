@@ -171,4 +171,26 @@ Data based on a neck model described by [Marike van der Horst](http://alexandria
 
 ## The TLEM Leg Model
 
+Implementation of a new lower extremity model labeled the Twente Lower Extremity Model (TLEM) consisting of 159 muscles and 6 joint degrees of freedom is almost completed. It has been validated against ‘state of the art’ literature with respect to its biomechanical performance and first applications in gait and cycling deliver very convincing results.
 
+The model is based on published morphological consistent anatomical dataset on muscle and joint parameters by Martijn Klein-Horsman from the University of Twente, The Netherlands. The implementation of the model was started by Karin Gorter, a Master Student, also from the University of Twente, during a three month stay at Aalborg University and is has now been finished by the AnyBody Technology.
+
+The current version has been updated several times and is still being maintained in collaboration with The AnyBody Research Group at Aalborg University (DK) [www.anybody.aau.dk](www.anybody.aau.dk) and University of Twente (NL) under the TLEMsafe project [www.tlemsafe.eu](www.tlemsafe.eu). Currently, new cadaver datasets are recorded within the TLEMsafe project.
+
+![image](https://cloud.githubusercontent.com/assets/22542671/20754885/3c667d88-b70d-11e6-9ebc-6c0dc338a276.png)
+
++ More details can be found online: [Report containing moment arm validation for ESA](http://www.anybodytech.com/fileadmin/downloads/Final_Report.pdf).
++ Link to publication of the dataset: Klein-Horsman et al. Morphological muscle and joint parameters for musculoskeletal modelling of the lower extremity: [Clin Biomech, 2007, 22, 239-247](http://www.clinbiomech.com/article/S0268-0033(06)00189-6/abstract)
+
+## The "Leg" Model
+
++ The “leg” model was the first leg model to enter the AnyBody model repository. It includes the pelvis, thigh, shank and a one segment foot. The hip joint is modeled as a spherical joint, while the knee and ankle are modeled as hinges. The “leg” model is equipped with only 35 muscles elements, which makes it a far simpler model than the LegTLEM.
++ Thanks to Mark Thompson, Lund University Hospital, for his help on developing the lower extremity model. A couple of muscles with broad insertions (like the m. gluteus maximus) are divided into multiple individual muscle units torepresent the real geometry and the mechanical actions of the muscle.
++ The parameters of these muscles are mainly based on the data published by Delp and Maganaris
+
+**References:**
++ [S. Delp, Parameters for the lower limb](http://isbweb.org/data/delp/).
++ Maganaris, C. N. In vivo measurement-based estimations of the moment arm in the human tibialis anterior muscle-tendon unit. Journal of Biomechanics, Vol. 33, pp. 375-379, 2000
++ Dostal, W. F. and J. G. Andrews. A three-dimensional biomechanical model of hip musculature. Journal of Biomechanics, Vol. 14, pp. 803-812, 1981.
++ Herzog, W. and L. J. Read. Lines of action and moment arms of the major force-carrying structures crossing the human knee joint. Journal of Anatomy. Vol. 182:, pp. 213-230, 1993.
++ Hintermann, B., B. M. Nigg, and C. Sommer. Foot movement and tendon excursion: an in vitro study. Foot & Ankle International, Vol. 15, pp. 386-395, 1994
