@@ -138,23 +138,37 @@ For more details please see this presentation [Abdominal pressure Presentation](
 
 ## References:
 
-•	Andersson,E., Oddsson,L., Grundstrom,H.,Thorstensson,A., The role of the psoas and iliacus muscles for stability and movement of the lumbar spine, pelvis and hip, Scand. J. Med. Sci. Sports,5 (1995) 10-16.
-•	Bogduk,N., Clinical anatomy of the lumbar spine and sacrum, Churchill Livingstone, Edinburgh, 1997.
-•	Bogduk,N., Macintosh,J.E., Pearcy,M.J., A universal model of the lumbar back muscles in the upright position, Spine, 17 (1992) 897-913.
-•	Bogduk,N., Pearcy,M.J., Hadfield,G., Anatomy and biomechanics of psoas major, Clin. Biomech., 7 (1992) 109-119.
-•	Daggfeldt,K., Thorstensson,A., The role of intraabdominal pressure in spinal unloading, J. Biomech., 30 (1997) 1149-1155.
-•	Daggfeldt,K., Thorstensson,A., The mechanics of back-extensor torque production about the lumbar spine, J. Biomech., 36 (2003) 815-825.
-•	Heylings,D.J.A., Supraspinous and interspinous ligaments of the human lumbar spine, J. Anat., 125 (1978) 127-131.
-•	Hodges,P.W., Cresswell,A.G., Daggfeldt,K., Thorstensson,A., In vivo measurement of the effect of intra-abdominal pressure on the human spine, J. Biomech., 34 (2001) 347-353.
-•	Macintosh,J.E., Bogduk,N., The biomechanics of the lumbar multifidus, Clin. Biomech., 1 (1986) 205-213.
-•	Macintosh,J.E., Bogduk,N., 1987 Volvo award in basic science. The morphology of the lumbar erector spinae, Spine, 12 (1987) 658-668.
-•	Macintosh,J.E., Bogduk,N., The attachments of the lumbar erector spinae, Spine, 16 (1991) 783-792.
-•	Macintosh,J.E., Bogduk,N., Munro,R.R., The morphology of the human lumbar multifidus, Clin. Biomech., 1 (1986) 196-204.
-•	McGill,S.M., Norman,R.W., Effects of an anatomically detailed erector spinae model on L4/L5 disc compression and shear, J. Biomech., 20 (1987) 591-600.
-•	Pearcy,M.J., Bogduk,N., Instantaneous axes of rotation of the lumbar intervertebral joints, Spine, 13 (1988) 1033-1041.
-•	Penning,L., Psoas muscle and lumbar spine stability: a concept uniting existing controversies. Critical review and hypothesis, Eur. Spine J., 9 (2000) 577-585.
-•	Prestar,F.J., Putz,R., Das Ligamentum longitudinale posterius - morphologie und Funktion, Morphol. Med., 2 (1982) 181-189.
-•	Prilutsky,B.I., Zatsiorsky,V.M., Optimizationbased models of muscle coordination, Exerc. Sport Sci. Rev., 30 (2002) 32-38.
-•	Stokes,I.A., Gardner-Morse,M., Lumbar spine maximum efforts and muscle recruitment patterns predicted by a model with multijoint muscles and joints with stiffness, J. Biomech., 28 (1995) 173-186.
-•	Stokes,I.A., Gardner-Morse,M., Quantitative anatomy of the lumbar musculature, J. Biomech., 32 (1999) 311-316.
-•	Pintar et al., “Biomechanical properties of human lumbar spine ligaments”, J Biomech, Vol. 25(11), 1992, pp.1351-1356.
++ Andersson,E., Oddsson,L., Grundstrom,H.,Thorstensson,A., The role of the psoas and iliacus muscles for stability and movement of the lumbar spine, pelvis and hip, Scand. J. Med. Sci. Sports,5 (1995) 10-16.
++ Bogduk,N., Clinical anatomy of the lumbar spine and sacrum, Churchill Livingstone, Edinburgh, 1997.
++ Bogduk,N., Macintosh,J.E., Pearcy,M.J., A universal model of the lumbar back muscles in the upright position, Spine, 17 (1992) 897-913.
++ Bogduk,N., Pearcy,M.J., Hadfield,G., Anatomy and biomechanics of psoas major, Clin. Biomech., 7 (1992) 109-119.
++ Daggfeldt,K., Thorstensson,A., The role of intraabdominal pressure in spinal unloading, J. Biomech., 30 (1997) 1149-1155.
++ Daggfeldt,K., Thorstensson,A., The mechanics of back-extensor torque production about the lumbar spine, J. Biomech., 36 (2003) 815-825.
++ Heylings,D.J.A., Supraspinous and interspinous ligaments of the human lumbar spine, J. Anat., 125 (1978) 127-131.
++ Hodges,P.W., Cresswell,A.G., Daggfeldt,K., Thorstensson,A., In vivo measurement of the effect of intra-abdominal pressure on the human spine, J. Biomech., 34 (2001) 347-353.
++ Macintosh,J.E., Bogduk,N., The biomechanics of the lumbar multifidus, Clin. Biomech., 1 (1986) 205-213.
++ Macintosh,J.E., Bogduk,N., 1987 Volvo award in basic science. The morphology of the lumbar erector spinae, Spine, 12 (1987) 658-668.
++ Macintosh,J.E., Bogduk,N., The attachments of the lumbar erector spinae, Spine, 16 (1991) 783-792.
++ Macintosh,J.E., Bogduk,N., Munro,R.R., The morphology of the human lumbar multifidus, Clin. Biomech., 1 (1986) 196-204.
++ McGill,S.M., Norman,R.W., Effects of an anatomically detailed erector spinae model on L4/L5 disc compression and shear, J. Biomech., 20 (1987) 591-600.
++ Pearcy,M.J., Bogduk,N., Instantaneous axes of rotation of the lumbar intervertebral joints, Spine, 13 (1988) 1033-1041.
++ Penning,L., Psoas muscle and lumbar spine stability: a concept uniting existing controversies. Critical review and hypothesis, Eur. Spine J., 9 (2000) 577-585.
++ Prestar,F.J., Putz,R., Das Ligamentum longitudinale posterius - morphologie und Funktion, Morphol. Med., 2 (1982) 181-189.
++ Prilutsky,B.I., Zatsiorsky,V.M., Optimizationbased models of muscle coordination, Exerc. Sport Sci. Rev., 30 (2002) 32-38.
++ Stokes,I.A., Gardner-Morse,M., Lumbar spine maximum efforts and muscle recruitment patterns predicted by a model with multijoint muscles and joints with stiffness, J. Biomech., 28 (1995) 173-186.
++ Stokes,I.A., Gardner-Morse,M., Quantitative anatomy of the lumbar musculature, J. Biomech., 32 (1999) 311-316.
++ Pintar et al., “Biomechanical properties of human lumbar spine ligaments”, J Biomech, Vol. 25(11), 1992, pp.1351-1356.
+
+## Cervical Spine Model
+
+![image](https://cloud.githubusercontent.com/assets/22542671/20754679/5a89ee36-b70c-11e6-883e-9bd0740bb090.png)
+
+Data based on a neck model described by [Marike van der Horst](http://alexandria.tue.nl/extra2/200211336.pdf).
+
+**Related**
+
++ Webcast [A detailed rigid-body cervical spine model based on inverse dynamics (Dr. Mark de Zee, 18. September, 2007)](http://www.anybodytech.com/redir.html?forward=webcast#%0AA%20detailed%20rigid-body%20cervical%20spine%20model%20based%20on%20inverse%20dynamics%0A%20). This webcast presents a detailed model of the cervical spine, which recently has been presented at the ISB congress in Taipei. We will go through the model and its assumptions including the muscles and a preliminary validation. Moreover an application will be presented where we try to predict neuromuscular adaptation of experimentally induced neck pain using the cervical spine model. (The webcast is available for playback.)
+
+## The TLEM Leg Model
+
+
