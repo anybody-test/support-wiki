@@ -26,5 +26,5 @@ The commonly used objective functions in the literature are based on minimizing 
 
 ## How to make use of the muscle normalization factor available in the AnyBodyStudy
 
-The search term InverseDynamics.Criterion.PrimaryTerm.Weight_SearchName allows a normalization factor to be added to the muscle this small example displays one possible use of the feature. Media:MuscleNormalizationFactorModel.main.any
-In the webcast "Grand Challenge Knee: Patient-Specific Musculoskeletal Modelling Of Total Knee Arthroplasty" at around 26 min, there is a explanation on the concept and it's use, please see video
+The search term InverseDynamics.Criterion.PrimaryTerm.Weight_SearchName allows a normalization factor to be added to the muscle this small example displays one possible use of the feature. [MuscleNormalizationFactorModel.main.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Muscles/MuscleNormalizationFactorModel.main.any)
+In the webcast "Grand Challenge Knee: Patient-Specific Musculoskeletal Modelling Of Total Knee Arthroplasty" at around 26 min, there is a explanation on the concept and it's use, please see [video](https://www.youtube.com/watch?v=8U5oWctbI54).
