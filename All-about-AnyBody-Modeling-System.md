@@ -114,7 +114,7 @@ The AnyBody Modeling System comes with a command line version included. It is na
 
 ## Create and output function
 
-One possible method for easily viewing data (in Chart FX) imported from an AnyFunInterpol {} function is to use this attached bit of code. It resamples the data to be consistent with tStart and tEnd used in your study. One note is that the abscissa in the Chart 2d is by default the global time. If you want to see the data plotted against its real T values, you need to change the Chart 2d abscissa to use the 'adjustedTime_Data' in the outputFunData2. The curves will be the same, just the axis labels will be different. Media:interp_outputFun.Main.any uses the data file: Media:P1.txt.any (which you need to rename to P1.txt)
+One possible method for easily viewing data (in Chart FX) imported from an AnyFunInterpol {} function is to use this attached bit of code. It resamples the data to be consistent with tStart and tEnd used in your study. One note is that the abscissa in the Chart 2d is by default the global time. If you want to see the data plotted against its real T values, you need to change the Chart 2d abscissa to use the 'adjustedTime_Data' in the outputFunData2. The curves will be the same, just the axis labels will be different. [InterpOutputFun.Main.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/InterpOutputFun.Main.any) uses the data file: [P1.txt.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/P1.txt.any) (which you need to rename to P1.txt)
 
 
 ## Is it possible to write Mathematical expressions in AnyScipt?
