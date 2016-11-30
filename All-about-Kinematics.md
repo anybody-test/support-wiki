@@ -86,7 +86,7 @@ Try to shift between the different types and you will see the differences it mak
 
 The types can be changed in the "Driver" object 
 
-[[Media:InterpolationDrivers.any]]
+[Media:InterpolationDrivers.any]https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/InterpolationDrivers.any
 
 
 ### Create a linear combination measure
