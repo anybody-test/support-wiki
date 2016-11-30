@@ -9,6 +9,7 @@ This study is part of the work done by ‘Team Icarus’ that is aiming to break
 ![Recumbet model](https://cloud.githubusercontent.com/assets/22542671/20755334/dce461d4-b70e-11e6-9d39-1e93b9bb7d98.png)
 
 Recumbent model
+
 ![image](https://cloud.githubusercontent.com/assets/22542671/20755393/1afda80e-b70f-11e6-87bd-6f784d50c258.png)
 
 Experimental setup
