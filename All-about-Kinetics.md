@@ -18,7 +18,7 @@ If looking at for example MR_MinMaxStrict it can be seen that this criterion do 
 
 
 
-[[ image:RecruitmentOverview.png]]
+![recruitmentoverview](https://cloud.githubusercontent.com/assets/22542671/20746344/ad7e4316-b6e5-11e6-8b41-501a669b557c.png)
 
 ## Does the spine rhythm impose any stiffness on the model?
 The spine rhythm matrix does not represent the stiffness of the spine. Actually the spine model has no passive stiffness implemented at the moment. The SRmatrices.any file which defines the spine rhythm is for the kinematics only. The coefficients in the matrix specify the rotation of each lumbar vertebra to a certain fraction of the rotation of T12/Pelvis. The T12/Pelvis rotation is the input of the lumbar driver. The SRMatrixes define the shape of the spine between T12 and the pelvis. 
