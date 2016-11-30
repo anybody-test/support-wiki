@@ -224,7 +224,7 @@ This can be done in the following ways
 
 Method1 :
 
-```
+```c++
 AnyKinLinear FemurToHipLin ={
   Ref=0; //measure in first listed ref frame 
   AnyRefNode  &femur=….Thigh.node;
