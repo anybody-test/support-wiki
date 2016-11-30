@@ -107,7 +107,7 @@ Please note that this is not a traditional surface to surface joint, but in some
 ![anykinmeasurecombexample](https://cloud.githubusercontent.com/assets/1038978/18739339/2c03fd1c-80a3-11e6-965e-1c70896af104.gif)
 
 
-[[Media:AnyKinMeasureCombExample.any]]
+[AnyKinMeasureCombExample.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyKinMeasureCombExample.any)
 
 ### Understand the available settings for the rotational measure types
 Please feel free to add
@@ -122,9 +122,11 @@ The AnyKinLinear measure is one of the most used objects when creating an anyScr
 
 The reference “Ref” has the following possible settings:
 * 	Ref=-1 (default) [[Media:AnyKinLinearDefault.avi]]
-* 	Ref=0 This means that the first mentioned reference frame will be used as the basis [[Media:AnyKinLinearRef0.avi]]
+* 	Ref=0 This means that the first mentioned reference frame will be used as the basis 
 Notice that the trajectory line (blue) is aligned with the blue x axis
-* 	Ref=1 This means that the second mentioned reference frame will be used as the basis [[Media:AnyKinLinearRef1.avi]]
+* 	Ref=1 This means that the second mentioned reference frame will be used as the basis 
+
+
 
 Notice that the trajectory line (blue) is aligned with the green x-axis
 
@@ -134,7 +136,7 @@ The yellow coordinate system is the global reference system, the blue is a rotat
 For more details on how to use the AnyKinLinear please also see the tutorial http://www.anybodytech.com/677.0.html
 
 
-[[Media:AnyKinLinear.any]]
+[AnyKinLinear.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyKinLinear.any)
 
 
 ### Create a joint between an ellipsoid and a point
