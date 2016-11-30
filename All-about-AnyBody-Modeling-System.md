@@ -163,3 +163,17 @@ To use the camera you just have to include this file in the study folder of the 
 
 [MovingCamera.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/MovingCamera.any)
 
+
+## How to move the location of a CAD file
+
+Usually CAD files with the same coordinate system as the segment they are attached to are used in the models. This makes it possible to attached directly the CAD file to the segment without more manipulation.
+
+The best way to make the CAD file fit the model is to translate and rotate it using a CAD program such as Rhinoceros or similar. First you have to define a reference point common on both the STL file and the segment; it can be the origin of the segment or some bony landmark any point that you can locate with precision on both the STL file and the segment. This point will be the origin of the STL file. Open the file with the CAD software (rhinoceros for example) and move it to have the origin at the chosen point and the orientation of the frame matching with the one of the segment. Then you can create a node (if not existing already) at the location of the reference point on the segment and insert the CAD file in this node, and the only thing left is to scale properly the CAD file.
+
+# General
+
+## Coordinate transformations local to global and visa versa
+
+How do you transform coordinates from local coordinate system to global and vise versa? This small example shows how this is done.
+
+[CoordinateTransformations](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/CoordinateTransformations.any)
