@@ -147,7 +147,7 @@ The picture shows a sketch of the joint.
 
 The second method is more general and implements the equation of an ellipsoid directly. It uses a linear measure between the center of the ellipsoid and the point. The three components of this measure are inserted into a Norm Combination Measure, i.e. a measure that computes the powersum of its components. If we use the power of 2 and use the ellipsoid axis lengths as weight factors on the three components, then we can exactly express the ellipsoid equation:
 
-$x^2/a + y^2/b + z^2/c = 1.$
+$$x^2/a + y^2/b + z^2/c = 1.$$
 
 Here's an example model.
 [[Media:Ellipsoid.any]]
