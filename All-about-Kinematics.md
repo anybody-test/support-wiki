@@ -61,7 +61,7 @@ Try to run the model and notice the way the coordinate systems are rotated.
 ### How to drive an AnyKinRotational Cardan angles (Type=RotAxesAngles) 
 This small example provides an example of how to drive the rotations in a small model using RotAxesAngles measures. The example is made to display that swapping the sequence of the DOF in the driver do not change the kinematic outcome of the model. 
 
-[Media:DrivingAnyKinRotationalRotAxesAngles.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/DrvingAnyKinRotationalRotAxesAngles.any)
+[DrivingAnyKinRotationalRotAxesAngles.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/DrvingAnyKinRotationalRotAxesAngles.any)
 
 ### How to understand the AnyKinRotational Cartesian rotation vector (Type=RotVector) 
 This small example has been made to illustrate visually the function of the AnyKinRotational running with the RotVector type.  The Cartesian rotation vector measures a general
@@ -70,7 +70,7 @@ vector that is parallel to this axis of rotation, and its length is equal to the
 
 Try to run the model and notice the way the coordinate systems are rotated.
 
-[Media:AnyKinRotationalRotVector.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyKinRotationalRotVector.any)
+[AnyKinRotationalRotVector.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyKinRotationalRotVector.any)
 
 ### Define an interpolation driver
 
@@ -86,14 +86,14 @@ Try to shift between the different types and you will see the differences it mak
 
 The types can be changed in the "Driver" object 
 
-[Media:InterpolationDrivers.any]https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/InterpolationDrivers.any
+[InterpolationDrivers.any]https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/InterpolationDrivers.any
 
 
 ### Create a linear combination measure
 This small example illustrates how to create a linear combination measure; this is useful for creating linear combinations of measures. The example has two segments sliding on prismatic joints. One of the segments is driven using an interpolation driver, the second segment is driven to follow the motion of the first segment to some fraction, in this case half the motion. 
 
 ![linearcombination](https://cloud.githubusercontent.com/assets/1038978/18739385/82ead268-80a3-11e6-9f30-e9283353a247.gif)
-
+[LinearCombinationMeasure.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/LinearCombinationMeasure.any)
 [[Media:LinearCombination.avi]]
 
 ### Create point cloud joints
