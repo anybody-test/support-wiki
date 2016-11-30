@@ -34,9 +34,9 @@ All joints are equipped with a folder "Constraints.Reaction.RefFrameOutput"  thi
 These forces and moments are given in the global coordinate system, and can be transferred into local by multiplying by the rotation matrix of the reference frame in question. So for example:
 ```
  AnyRevoluteJoint Jnt ={
-    AnyFixedRefFrame &ref=.global;
-    AnyRefNode &ref2=.Mass.node1; 
-    AnyVec3 M_local= Constraints.Reaction.RefFrameOutput.M[0]*ref.Axes ;
+    AnyFixedRefFrame &ref = .global;
+    AnyRefNode &ref2 = .Mass.node1; 
+    AnyVec3 M_local = Constraints.Reaction.RefFrameOutput.M[0] * ref.Axes ;
  };
 ```
 Here M_local would be the reaction force in the first frames coordinate system
