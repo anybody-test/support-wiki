@@ -1,3 +1,5 @@
+The AnyBody Modeling System v6.0 (AMS) and the AnyBody Managed Model Repository v1.6 (AMMR) are used in this example.
+
 # What do you need to process your own C3D model?
 
 1. You need a C3D file of the recorded trial: In most cases it is easy to switch between trials recorded in Vicon, Qualisys, Simi, ... Many of our users have the Plug-In-Gait marker protocol or something similar. Different protocols are also applicable. Additional markers can easily be added to the model. Force data from Force Platforms is necessary to ensure a smooth processing of the trials. It is also possible to use BVH files from XSens, Animazoo, Kinect, ...
