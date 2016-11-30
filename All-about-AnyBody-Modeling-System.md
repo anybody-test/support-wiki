@@ -141,3 +141,13 @@ When developing models it is often convenient to be able to actually see the tra
 ![image](https://cloud.githubusercontent.com/assets/22542671/20751818/4d451d62-b6fe-11e6-9f94-96bc7e8ffeb5.png)
 
 [Trajectory2.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/Trajectory2.any)
+
+## Display the center of mass of the entire model
+
+This small model demonstrates how it is possible to create a visual object representing the collective center of mass for a number of segments. This is done using the object AnyKinCoM measure that can measure the center of mass for one or more objects. The output from this object is the center of mass measure in the global reference system. In order to visualize the object, a new dummy segment was created and using the AnyKinLinComb measure it has been driven to the location of the CoM, for the simple two bar mechanism in the model.
+
+![image](https://cloud.githubusercontent.com/assets/22542671/20752045/73ec4e26-b6ff-11e6-9fd7-4f14603b185e.png)
+
+The picture displays the center of mass as a blue sphere.
+
+[CoMDisplay.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/CoMDisplay.any)
