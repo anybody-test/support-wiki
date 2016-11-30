@@ -30,7 +30,7 @@ AMS advanced features:
 * [[Saving output files with index in name in parameter studies]]
 * [[How to add a rotating camera to record a model]]
 * [Add ground reaction force prediction to a model](http://wiki.anyscript.org/images/2/2a/AddingGRFpredictiontoaMoCapmodel.pdf)
-* [[Caching result of muscle calibration]]
+* [[Caching the result of muscle calibration]]
 
 
 Model and Validation:
