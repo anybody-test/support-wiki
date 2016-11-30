@@ -26,17 +26,17 @@ To save the output, please follow these steps:
 
 To load the output, please follow these steps:
 
-.+In the ModelTree locate the AnyBodyStudy to which you want to load the results into.
-.+Then right click the folder “Output”
-.+Select the option “Load data”
-.+Then select the file with the file browser
+.+ In the ModelTree locate the AnyBodyStudy to which you want to load the results into.
+.+ Then right click the folder “Output”
+.+ Select the option “Load data”
+.+ Then select the file with the file browser
 
 When the output file has been loaded it is possible to “Replay” the loaded data, please follow these steps:
 
-.+Open the OperationTree
-.+Locate the AnyBodyStudy you have loaded the data into
-.+Select the Replay operation
-.+Run it
+.+ Open the OperationTree
+.+ Locate the AnyBodyStudy you have loaded the data into
+.+ Select the Replay operation
+.+ Run it
 
 It is also possible to create the actions listed above through macro’s. The reference manual has a small example displaying this; please search for “AnyDataMacroDemo”, in the reference manual and you will find a short description and a sample model. The sample files displays how to create an operation which creates the output and loads it again.
 
