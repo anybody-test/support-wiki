@@ -150,4 +150,4 @@ File: AnyForceMomentMeasure.any
 
 ## Measure the moment created by the muscles around a joint degree of freedom in a certain coordinate system
 This small example show how to use the AnyForceMomentMeasure2 to measure the moment created by the muscles around a joint degree of freedom and responsible for the motion of this joint.
-[[Muscle Moment Measure example.any]](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/MuscleMomentMeasureExample.any)
+[Muscle Moment Measure example.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/MuscleMomentMeasureExample.any)
