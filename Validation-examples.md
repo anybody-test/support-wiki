@@ -79,3 +79,26 @@ Data acquisition
 + Sarah R. Dubowsky, John Rasmussen Sue Ann Sisto, Noshir A. Langrana (2008): Validation of a musculo-skeletal model of wheelchair propulsion and its application to minimizing shoulder joint forces. Accepted for publication, Journal of Biomechanics.
 + [Webcast presentation: Adjusting the Axle Placement in Wheelchair Users to Minimize Shoulder Joint Forces (Sarah Sullivan-Dubrowsky, 8. November, 2007)](http://www.anybodytech.com/fileadmin/webcasts/AnyBodyWebcastWheelchairNov07.pdf)
 + [Webcast recording: Adjusting the Axle Placement in Wheelchair Users to Minimize Shoulder Joint Forces (Sarah Sullivan-Dubrowsky, 8. November, 2007)](http://www.anybodytech.com/fileadmin/webcasts/AnyBodyWebcastWheelchairNov07.pdf)
+
+## Spine pressure validation
+
+**Author:** Sylvain Carbes, AnyBody Technology
+
+This example is a comparison between a model and results from the paper:
+
++ New In Vivo Measurements of Pressures in the Intervertebral Disc in Daily Life. Wilke, Hans-Joachim PhD *; Neef, Peter MD +; Caimi, Marco MD ++; Hoogland, Thomas MD [S]; Claes, Lutz E. PhD Spine. 24(8):755-762, April 15, 1999.
+
+**Method**
+
++The results in the paper are the disc presures expresed as a percentage of the standing posture pressure.
++The results in AnyBody are the disc compresion forces expresed as a percentage of the standing posture force.
++The percentage from AnyBody and from the paper are compared to each others.
++The load situations from the paper was reproduced in AnyBody
+
+![image](https://cloud.githubusercontent.com/assets/22542671/20755830/a6dcaf2c-b710-11e6-8ded-436eefa19b0d.png)
+
+Reproduced load situations
+
+![image](https://cloud.githubusercontent.com/assets/22542671/20755844/b78d1938-b710-11e6-911e-42e8b8169aff.png)
+
+*Spine pressure validation*
