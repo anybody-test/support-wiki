@@ -16,8 +16,6 @@ The criterion is to minimize "Primary Term" + "Auxiliary Terms". By changing the
 
 If looking at for example MR_MinMaxStrict it can be seen that this criterion do not have any auxiliary terms available, whereas the MR_MinMaxAux has this.
 
-
-
 ![recruitmentoverview](https://cloud.githubusercontent.com/assets/22542671/20746344/ad7e4316-b6e5-11e6-8b41-501a669b557c.png)
 
 ## Does the spine rhythm impose any stiffness on the model?
