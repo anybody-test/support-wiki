@@ -1,3 +1,5 @@
+The AnyBody Modeling System v5.2 (AMS) and the AnyBody Managed Model Repository v1.5 (AMMR) are used in this example:
+
 # What do you need to process your own C3D model?
 
 1. C3D file of the recorded trial: Many of our users have the Plug-In-Gait marker protocol. Different protocols are also applicable. Additional markers can easily be added to the model. Force data from Force Platforms is necessary to ensure a smooth processing of the trials.
