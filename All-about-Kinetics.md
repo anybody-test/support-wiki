@@ -111,7 +111,7 @@ So by adjusting the magnitude of the strength of this muscle different results c
 ## Adding stiffness in joint
 This small example showing how to add "rotational spring" in a joint using an interpolation function and an AnyForce object. 
 
-[StiffnessInJoint.any](support/Wiki_Files/StiffnessInJoint.any)
+[StiffnessInJoint.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/StiffnessInJoint.any)
 
 
 ## Understand the reactions in the Glenohumeral Joint== 
