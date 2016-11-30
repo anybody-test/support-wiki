@@ -94,9 +94,14 @@ The AnyOutputFile object can be used for creating output files, which can be ent
 ## Understand the ExportEquilibrium file
 
 This is some extra comments in addition to what can be found in the manual on the EquilEqExportFileName which can be created from the AnyBodyStudy.
+
 This is a facility which can be used for exporting the entire equilibrium system to a text file.
+
 The rows are each corresponding to one degree of freedom. In principle, you do not know any more about the rows. It is not like you might imagine that each row was liked to a certain kinematic property in the model (e.g. a kinematic measure), at least it does not have to be like this. A row can, in general, be associated with any combination of kinematics.
+
 However, in the current format, each row is actually associated with one degree of freedom of a segment; so the first six rows are first 3 translational then 3 rotational degrees of freedom of the first segment and so on.
+
 It is stated in this way because there is no guarantee that it will stay like this for all model setups. The data are output directly for the computational kernel of AnyBody, so it will reflect whatever algorithm that is forming the equations of motion.
+
 The columns of Cm each correspond to one muscle and they are ordered like the list of "Strong Muscles" in the file.
 Similarly, each column of Cr corresponds to a component of a reaction force with Type equal to On.
