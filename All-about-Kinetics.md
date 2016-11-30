@@ -32,13 +32,13 @@ Main.Studies.InverseDynamicStudy.Output.ModelEnvironmentConnection.JointsAndDriv
 All joints are equipped with a folder "Constraints.Reaction.RefFrameOutput"  this folder contains the force and moment in the reference frames used by the joint.
 
 These forces and moments are given in the global coordinate system, and can be transferred into local by multiplying by the rotation matrix of the reference frame in question. So for example:
-
+```
  AnyRevoluteJoint Jnt ={
     AnyFixedRefFrame &ref=.global;
     AnyRefNode &ref2=.Mass.node1; 
     AnyVec3 M_local= Constraints.Reaction.RefFrameOutput.M[0]*ref.Axes ;
  };
-
+```
 Here M_local would be the reaction force in the first frames coordinate system
 
 If you are unsure what direction the X-Axis represents, it is advisable to draw a RefFrame in the Joint Node. The first node mentioned in the joint is used to define the reference frame for the output of forces and moments. Example for the Knee:
