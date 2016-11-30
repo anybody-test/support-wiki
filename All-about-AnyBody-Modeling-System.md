@@ -78,4 +78,6 @@ The AnyInputFile can be used for reading in input files from text files and plac
 
 ## Changing raw data inside AnyBody
 
+Sometimes you have raw data which is not directly suitable for driving the model, it can be that you would like to change the units the sign etc. Instead of doing changes to the raw data it is possible to do these changes inside AnyBody. This is done by reading the data into the system using he AnyInputFile and the use this data in the interpolation function. When referring to the data it is possible to make changes to the raw data. The sample file illustrates how this is possible; it contains one segment and one prismatic driver.
+[AdjustingData.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/AdjustingData.any)
 [Data.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/Data.any)
