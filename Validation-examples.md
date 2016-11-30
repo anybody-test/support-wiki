@@ -63,3 +63,19 @@ Data acquisition
 
 1. Anterior deltoid; 2. Biceps; 3. Pectoralis major; 4. Posterior deltoid; 5. Trapezius; 6. Triceps
 
+**Measured Variables:**
+
++ Subject anthropometrics
++ 3-D kinematics from Vicon
++ Wheelchair measurements
++ Fx, Fy, and Fz propulsion forces from SMARTWheel’s
++ Surface EMG from 12-muscles
+
+**Model output:**
+
++ Muscle forces and activations
+
+**Related links**
++ Sarah R. Dubowsky, John Rasmussen Sue Ann Sisto, Noshir A. Langrana (2008): Validation of a musculo-skeletal model of wheelchair propulsion and its application to minimizing shoulder joint forces. Accepted for publication, Journal of Biomechanics.
++ [Webcast presentation: Adjusting the Axle Placement in Wheelchair Users to Minimize Shoulder Joint Forces (Sarah Sullivan-Dubrowsky, 8. November, 2007)](http://www.anybodytech.com/fileadmin/webcasts/AnyBodyWebcastWheelchairNov07.pdf)
++ [Webcast recording: Adjusting the Axle Placement in Wheelchair Users to Minimize Shoulder Joint Forces (Sarah Sullivan-Dubrowsky, 8. November, 2007)](http://www.anybodytech.com/fileadmin/webcasts/AnyBodyWebcastWheelchairNov07.pdf)
