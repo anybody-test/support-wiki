@@ -121,7 +121,8 @@ Please feel free to add
 The AnyKinLinear measure is one of the most used objects when creating an anyScript model, so it is very important to be familiar with its various settings. The measure is used for measuring the position vector between two reference frames. The linear measure has a reference setting which is used to determine which reference system it will use for the measurements. 
 
 The reference “Ref” has the following possible settings:
-* 	Ref=-1 (default) [[Media:AnyKinLinearDefault.avi]]
+* 	Ref=-1 (default) [AnyKinLinearDefault.avi](https://cloud.githubusercontent.com/assets/22542671/20748318/fd8933f4-b6ed-11e6-80ec-1ad04a8aa9a2.png)
+
 * 	Ref=0 This means that the first mentioned reference frame will be used as the basis 
 Notice that the trajectory line (blue) is aligned with the blue x axis
 * 	Ref=1 This means that the second mentioned reference frame will be used as the basis 
