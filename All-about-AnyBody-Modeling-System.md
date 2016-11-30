@@ -63,3 +63,19 @@ The interpolation functions used throughout the file do not serve any other purp
 ![image](https://cloud.githubusercontent.com/assets/22542671/20749805/24ef16f6-b6f4-11e6-809c-e787b9770d59.png)
 
 This sample code is shows how to make use of the filter
+
+[AnyButterWorthFilter.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/AnyButterWorthFilter.any)
+
+
+## Use an input file
+
+The AnyInputFile can be used for reading in input files from text files and place the data in a matrix or vector. This matrix can then be used for interpolationdrivers ect. Try to load the model and once it has loaded please try to look in the model tree and explore the Data folder which now contains the data loaded from the file.
+
+[InputFiles2.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/InputFiles2.any)
+
+[InputTest.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/InputTest.any)
+
+
+## Changing raw data inside AnyBody
+
+[Data.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/Data.any)
