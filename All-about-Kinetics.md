@@ -43,7 +43,7 @@ Here M_local would be the reaction force in the first frames coordinate system
 
 If you are unsure what direction the X-Axis represents, it is advisable to draw a RefFrame in the Joint Node. The first node mentioned in the joint is used to define the reference frame for the output of forces and moments. Example for the Knee:
 
-
+```
   Main.Studies.HumanModel.BodyModel.Right.Leg.Jnt.Knee.ThighNode = {
   
   AnyDrawRefFrame KneeJointRefFrame ={
@@ -53,6 +53,7 @@ If you are unsure what direction the X-Axis represents, it is advisable to draw 
   ScaleXYZ = 0.2 * {1, 1, 1};
   
   };};
+```
 
 ## I have a different force plate setup than used in the applications of the repository what should I do?
 Basically you need to model this in the “environment.any” file, but first you need to look at the definition of your forceplate at www.c3d.org , in the manual you will find a forceplate section, there are several types defined. You will need to find yours and review its properties.
