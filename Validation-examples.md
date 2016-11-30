@@ -8,11 +8,11 @@ This study is part of the work done by ‘Team Icarus’ that is aiming to break
 
 ![Recumbet model](https://cloud.githubusercontent.com/assets/22542671/20755334/dce461d4-b70e-11e6-9d39-1e93b9bb7d98.png)
 
-Recumbent model
+*Recumbent model*
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20755393/1afda80e-b70f-11e6-87bd-6f784d50c258.png)
 
-Experimental setup
+*Experimental setup*
 
 **Input to the model:**
 + Kinematics
@@ -28,11 +28,11 @@ Experimental setup
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20755484/77452470-b70f-11e6-875b-2128a63470ad.png)
 
-Predicted activation times (fat) versus experimental activation times (small ) per muscles
+*Predicted activation times (fat) versus experimental activation times (small ) per muscles*
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20755503/840b7074-b70f-11e6-86dd-e155917820e0.png)
 
-Predicted pedal forces (dashed) versus experimental pedal forces (solid).
+*Predicted pedal forces (dashed) versus experimental pedal forces (solid).*
 
 **Conclusions:**
 + The recumbent model predicts muscle activation times and pedal forces well.
@@ -53,15 +53,15 @@ This is a demonstration of the construction and validation of a model of an indi
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20755616/dc311de4-b70f-11e6-95d7-e507197b62a0.png)
 
-Experimental setup
+*Experimental setup*
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20755623/e71e2fd0-b70f-11e6-9c5a-7c3f608ddad2.png)
 
-Data acquisition
+*Data acquisition*
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20755634/f3701f82-b70f-11e6-8a3d-45f147e128f3.png)
 
-1. Anterior deltoid; 2. Biceps; 3. Pectoralis major; 4. Posterior deltoid; 5. Trapezius; 6. Triceps
+*1. Anterior deltoid; 2. Biceps; 3. Pectoralis major; 4. Posterior deltoid; 5. Trapezius; 6. Triceps*
 
 **Measured Variables:**
 
@@ -97,8 +97,44 @@ This example is a comparison between a model and results from the paper:
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20755830/a6dcaf2c-b710-11e6-8ded-436eefa19b0d.png)
 
-Reproduced load situations
+*Reproduced load situations*
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20755844/b78d1938-b710-11e6-911e-42e8b8169aff.png)
 
 *Spine pressure validation*
+
+**Conclusion**
+
+The comparison gives good results
+
+**Related links**
+
+The model which has been used for producing these results can be found in the AnyBody Managed Model Repository in the folder: Application ->Validation -> SpinePressureValidation
+
+# Validation references
+
+## Webinars
+
+Webinars are available from [here](http://www.anybodytech.com/index.php?id=199).
+
++ Seated Human Model Validation (Christian Gammelgaard Olesen, 19. May, 2009)
++ TLEM: A new detailed lower extremity model (Dr. Sebastian Dendorfer, 20. August, 2008)
++ Validation of Hip Joint Force Simulation by Gait Analysis (Catherine Manders, 29. January, 2008)
++ Adjusting the Axle Placement in Wheelchair Users to Minimize Shoulder Joint Forces (Sarah Sullivan-Dubrowsky, 8. November, 2007)
++ Development of a musculoskeletal simulator for swimming (Dr. Motomu Nakashima, 3. October, 2007)
++ A detailed rigid-body cervical spine model based on inverse dynamics (Dr. Mark de Zee, 18. September, 2007)
++ Validation of the AnyBody version of the Dutch Shoulder Model by the in-vivo measurement of GH contact forces by Bergmann et al. (Prof. John Rasmussen, 26. April, 2007)
++ Scaling strength in human simulation models (Dr. Kenneth Meijer, 17. January, 2007)
++ A generic detailed rigid-body lumbar spine model (Dr. Mark de Zee, 4. December, 2006)
++ Validation of musculoskeletal models (Dr. Mark de Zee, 4. October, 2006)
+
+## Papers and conference presentations
+
++ E. Forster, et al. (2004): Agreement of muscular activation and hip contact forces predicted with two different software packages. 11th Workshop on The Finite Element Method in Biomedical Engineering, Biomechanics and Related Fields. University of Ulm, Department of Orthodontics, July 14th -15th, 2004.
++ M. de Zee, et al. (2007).Validation of a musculo-skeletal model of the mandible and its application to mandibular distraction osteogenesis. Journal of Biomechanics, 40, 1192–1201.
++ J. Rasmussen, et al. (2007): Comparison of a musculoskeletal shoulder model with in-vivo joint forces. International Society of Biomechanics 11th congress, Taipei, Taiwan.
++ C. Manders, et al. (2008): Validation Of Musculoskeletal Gait Simulation For Use In Investigation Of Total Hip Replacement. 16th Congress of the European Society of Biomechanics. Journal of Biomechanics, Volume 41, Supplement 1, July 2008, Page S488.
++ S.R. Dubowsky et al. (2008): Validation of a musculo-skeletal model of wheelchair propulsion and its application to minimizing shoulder joint forces. Accepted for publication, Journal of Biomechanics 41, 2981-2988.
++ A. Nolte, et al. (2008). Analysis of the muscle and joint forces in the shoulder joint using the anybody simulation model. 16th Congress of the European Society of Biomechanics. Journal of Biomechanics, Volume 41, Supplement 1, July 2008, Page S492
++ J . Wu, et al. (2008): Analysis of musculoskeletal loading in an index finger during tapping. Journal of Biomechanics , 41, 668 – 676.
++ J. Rasmussen, et al. (2009): Validation of a biomechanical model of the lumbar spine. International Society of Biomechanics 12th congress, Cape Town, RSA.
