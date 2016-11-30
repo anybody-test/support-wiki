@@ -93,8 +93,10 @@ The types can be changed in the "Driver" object
 This small example illustrates how to create a linear combination measure; this is useful for creating linear combinations of measures. The example has two segments sliding on prismatic joints. One of the segments is driven using an interpolation driver, the second segment is driven to follow the motion of the first segment to some fraction, in this case half the motion. 
 
 ![linearcombination](https://cloud.githubusercontent.com/assets/1038978/18739385/82ead268-80a3-11e6-9f30-e9283353a247.gif)
+
+
 [LinearCombinationMeasure.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/LinearCombinationMeasure.any)
-[[Media:LinearCombination.avi]]
+
 
 ### Create point cloud joints
 The AnyKinMeasureNormComb object integrates several measures into one single measure; in this example one for each grey sphere representing its distance to the red surface. 
