@@ -148,15 +148,15 @@ The first method relies on the fact that the distance from the first focal point
  
 The picture shows a sketch of the joint.
 
-[[Media:EllipsoidJointDemonstration.any]]
-[[Media:EllipsoidJoint.any]]
+[EllipsoidJointDemonstration.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/EllipsoidJointDemonstration.any)
+[EllipsoidJoint.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/EllipsoidJoint.any)
 
 The second method is more general and implements the equation of an ellipsoid directly. It uses a linear measure between the center of the ellipsoid and the point. The three components of this measure are inserted into a Norm Combination Measure, i.e. a measure that computes the powersum of its components. If we use the power of 2 and use the ellipsoid axis lengths as weight factors on the three components, then we can exactly express the ellipsoid equation:
 
 $$x^2/a + y^2/b + z^2/c = 1.$$
 
 Here's an example model.
-[[Media:Ellipsoid.any]]
+[Ellipsoid.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Ellipsoid.any)
 
 ### Create a model of just a single arm
 
@@ -199,7 +199,9 @@ For an example of such a model please see the GaitVaughan or wheelChairRancho mo
 
 ### Define a constraint point on line or point on plane
 Here are two examples of how to define such constraints, with the line and plane defined by AnyRefNodes moving during the simulation.
-[[Media:Constraint_point_on_line.any]] [[Media:Constraint_point_on_plane.any]]
+[Constraint_point_on_line.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/ConstraintPointOnLine.any)
+
+ [Constraint_point_on_plane.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/ConstraintPointOnPlane.any)
 
 ### Use a simple text file to drive a model
 This is a small example that uses a simple text file to create the motion in the model.
@@ -253,7 +255,7 @@ AnyKinLinear same as before:
 
 Rotational measure reads out in Euler parameters is a special form of quaternions, please see AnyKinRotational in the manual, it will give four parameters as output.
 
-
+```
 AnyKinRotational FemurToHipRot ={
 
 AnyRefNode  &femur=….Thigh.node;
@@ -263,16 +265,16 @@ AnyRefNode  &pelvis=….Pelvis.node;
 Type=EulerParam;
 
 };
-
+```
 Method3:
 
 
 The small equation will provide the rotation matrix between femur and  pelvis.
 
-
+```
 AnyMatrix FemurPelvisRot = .Femur.Axes’*.pelvis.Axes
 
-
+```
 ### Can I use AnyBody to make models which are moved "just" by forces? 
 Yes and no,
 
@@ -283,7 +285,7 @@ With the release of AMS 5.0 a new solver type was introduced which enables the s
 Basically, it finds the equilibrium for the degrees of freedom that you have specified as 'ForceDep'. It is a static equilibrium in the sense that the solver assumes accelerations and velocities of these degrees of freedom to be zero. 
 
 The small sample model display here illustrates the principle
-[[Media:FDKDisplayModel.any]]
+[FDKDisplayModel.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/FDKDisplayModel.any)
 
 For more details on the FDK capabilities and limitations, please see the section on FDK in the tutorials and manuals.
 
