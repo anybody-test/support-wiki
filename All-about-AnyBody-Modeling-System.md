@@ -51,3 +51,15 @@ AnyOperationMacro SaveDataDeepMacroScriptVersion= {
 ```
 
 The AnyOperationMacro’s naturally also works in the AnyBody console application AnyBodyCon.
+
+
+## Create a ButterworthFilter
+
+AnyFunButterworthFilter is a Butterworth filter extension to the general linear filter AnyFunLinFilterBase with a simpler interface. This makes it possible to import raw experimental data without prior filtering by external software.
+
+The model demonstrates the use of the Butterworth filter facility. The model filters a dataset, composed of a series of sinus waves with a lowpass, highpass, bandpass and bandstop filter and uses the filtered data to create interpolation functions as function of time that can be plotted after a kinematic analysis.
+
+The interpolation functions used throughout the file do not serve any other purpose than allowing one to plot the data using the charts. The filters allow you to filter any data given as an AnyFloat and it returns to you an AnyFloat with the filtered data.
+![image](https://cloud.githubusercontent.com/assets/22542671/20749805/24ef16f6-b6f4-11e6-809c-e787b9770d59.png)
+
+This sample code is shows how to make use of the filter
