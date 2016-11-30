@@ -61,7 +61,7 @@ Try to run the model and notice the way the coordinate systems are rotated.
 ### How to drive an AnyKinRotational Cardan angles (Type=RotAxesAngles) 
 This small example provides an example of how to drive the rotations in a small model using RotAxesAngles measures. The example is made to display that swapping the sequence of the DOF in the driver do not change the kinematic outcome of the model. 
 
-[[Media:DrivingAnyKinRotationalRotAxesAngles.any]]
+[Media:DrivingAnyKinRotationalRotAxesAngles.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/DrvingAnyKinRotationalRotAxesAngles.any)
 
 ### How to understand the AnyKinRotational Cartesian rotation vector (Type=RotVector) 
 This small example has been made to illustrate visually the function of the AnyKinRotational running with the RotVector type.  The Cartesian rotation vector measures a general
@@ -70,7 +70,7 @@ vector that is parallel to this axis of rotation, and its length is equal to the
 
 Try to run the model and notice the way the coordinate systems are rotated.
 
-[[Media:AnyKinRotationalRotVector.any]]
+[Media:AnyKinRotationalRotVector.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyKinRotationalRotVector.any)
 
 ### Define an interpolation driver
 
