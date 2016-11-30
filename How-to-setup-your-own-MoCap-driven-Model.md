@@ -23,7 +23,7 @@ Let’s get started, and open the model with the Main file GaitLowerExtremity.Ma
     #endif
     //Usually only have one of the two switches active so set the inactive analysis to 0
     //**************************************************
- ```
+```
 ## MotionAndParameterOptimization
 
 In this study, the C3D file will be loaded and used. The Markers of the recording will be used assigned to a body segment. The position of the markers, the joint axis, or joint centers will be determined to find the optimal Motion. The segment lengths will be optimized suing the recorded motion. This study is pure kinematics. The forces are not used, therefore the muscles will not be activated in this procedure. After finding the optimal motion and parameters, the joint angles will be exported into .txt files.
