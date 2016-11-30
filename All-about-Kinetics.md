@@ -111,7 +111,7 @@ So by adjusting the magnitude of the strength of this muscle different results c
 ## Adding stiffness in joint
 This small example showing how to add "rotational spring" in a joint using an interpolation function and an AnyForce object. 
 
-[StiffnessInJoint.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/StiffnessInJoint.any)
+[StiffnessInJoint.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinetics/StiffnessInJoint.any)
 
 
 ## Understand the reactions in the Glenohumeral Joint== 
@@ -150,4 +150,4 @@ File: AnyForceMomentMeasure.any
 
 ## Measure the moment created by the muscles around a joint degree of freedom in a certain coordinate system
 This small example show how to use the AnyForceMomentMeasure2 to measure the moment created by the muscles around a joint degree of freedom and responsible for the motion of this joint.
-[Muscle Moment Measure example.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/MuscleMomentMeasureExample.any)
+[Muscle Moment Measure example.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinetics/MuscleMomentMeasureExample.any)
