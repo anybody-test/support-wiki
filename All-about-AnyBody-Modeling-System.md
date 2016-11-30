@@ -18,25 +18,25 @@ Yes. In the chart view, when you click the "Copy to clipboard" icon, you are pre
 The save data function can be used to save results for later review. AMS let you save the output from a study into to a single file using the .h5 format. This is a convenient way to save all the output form the model. It possible later re-open the model, load the data and replay the model, or create additional graphs from the saved data.
 To save the output, please follow these steps:
 
-+In the ModelTree locate the AnyBodyStudy from which you want to save the results from.
-+Then right click the folder “Output”
-+Select the option “Save data”
-+Select if the data should be saved as a flat or deep structure. This choice only has implications on how the output structure will look like and it does not impact how the data later can be loaded into AMS. Choosing the “deep” option will save the output as a structure resembling the output folder structure seen in the ModelTree.
-+Then select a name for the file
+.+In the ModelTree locate the AnyBodyStudy from which you want to save the results from.
+.+Then right click the folder “Output”
+.+Select the option “Save data”
+.+Select if the data should be saved as a flat or deep structure. This choice only has implications on how the output structure will look like and it does not impact how the data later can be loaded into AMS. Choosing the “deep” option will save the output as a structure resembling the output folder structure seen in the ModelTree.
+.+Then select a name for the file
 
 To load the output, please follow these steps:
 
-+In the ModelTree locate the AnyBodyStudy to which you want to load the results into.
-+Then right click the folder “Output”
-+Select the option “Load data”
-+Then select the file with the file browser
+.+In the ModelTree locate the AnyBodyStudy to which you want to load the results into.
+.+Then right click the folder “Output”
+.+Select the option “Load data”
+.+Then select the file with the file browser
 
 When the output file has been loaded it is possible to “Replay” the loaded data, please follow these steps:
 
-+Open the OperationTree
-+Locate the AnyBodyStudy you have loaded the data into
-+Select the Replay operation
-+Run it
+.+Open the OperationTree
+.+Locate the AnyBodyStudy you have loaded the data into
+.+Select the Replay operation
+.+Run it
 
 It is also possible to create the actions listed above through macro’s. The reference manual has a small example displaying this; please search for “AnyDataMacroDemo”, in the reference manual and you will find a short description and a sample model. The sample files displays how to create an operation which creates the output and loads it again.
 
