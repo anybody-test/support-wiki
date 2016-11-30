@@ -151,3 +151,15 @@ This small model demonstrates how it is possible to create a visual object repre
 The picture displays the center of mass as a blue sphere.
 
 [CoMDisplay.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/CoMDisplay.any)
+
+
+## Create a camera
+
+This sample file cotains the definition of a moving camera using the AnyCamera class. Unlike the classic recorder of the model view, AnyCamera can fly around your model in complex paths. The results are impressive videos appreciated for presentations, exhibitions, etc.
+
+AnyCamera object showing itself in the Model View
+
+To use the camera you just have to include this file in the study folder of the Main file and run an analysis. Don’t forget to create a folder “MovingCamera” to store the images, otherwise it will not work. Several strategies for driving the camera are given as examples in the file, but of course you are free to create your own smart trajectories and do the best video ever...
+
+[MovingCamera.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/MovingCamera.any)
+
