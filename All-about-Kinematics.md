@@ -55,13 +55,13 @@ of these rotations is important, and that any rotation subsequent to the first i
 
 Try to run the model and notice the way the coordinate systems are rotated.
 
-[AnyKinRotationalRotAxesAngles.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyKinRotationalRotAxesAngles.any)
+[AnyKinRotationalRotAxesAngles.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/AnyKinRotationalRotAxesAngles.any)
 
 
 ### How to drive an AnyKinRotational Cardan angles (Type=RotAxesAngles) 
 This small example provides an example of how to drive the rotations in a small model using RotAxesAngles measures. The example is made to display that swapping the sequence of the DOF in the driver do not change the kinematic outcome of the model. 
 
-[DrivingAnyKinRotationalRotAxesAngles.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/DrvingAnyKinRotationalRotAxesAngles.any)
+[DrivingAnyKinRotationalRotAxesAngles.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/DrvingAnyKinRotationalRotAxesAngles.any)
 
 ### How to understand the AnyKinRotational Cartesian rotation vector (Type=RotVector) 
 This small example has been made to illustrate visually the function of the AnyKinRotational running with the RotVector type.  The Cartesian rotation vector measures a general
@@ -70,7 +70,7 @@ vector that is parallel to this axis of rotation, and its length is equal to the
 
 Try to run the model and notice the way the coordinate systems are rotated.
 
-[AnyKinRotationalRotVector.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyKinRotationalRotVector.any)
+[AnyKinRotationalRotVector.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/AnyKinRotationalRotVector.any)
 
 ### Define an interpolation driver
 
@@ -86,7 +86,7 @@ Try to shift between the different types and you will see the differences it mak
 
 The types can be changed in the "Driver" object 
 
-[InterpolationDrivers.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/InterpolationDrivers.any)
+[InterpolationDrivers.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/InterpolationDrivers.any)
 
 
 ### Create a linear combination measure
@@ -95,7 +95,7 @@ This small example illustrates how to create a linear combination measure; this 
 ![linearcombination](https://cloud.githubusercontent.com/assets/1038978/18739385/82ead268-80a3-11e6-9f30-e9283353a247.gif)
 
 
-[LinearCombinationMeasure.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/LinearCombinationMeasure.any)
+[LinearCombinationMeasure.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/LinearCombinationMeasure.any)
 
 
 ### Create point cloud joints
@@ -107,7 +107,7 @@ Please note that this is not a traditional surface to surface joint, but in some
 ![anykinmeasurecombexample](https://cloud.githubusercontent.com/assets/1038978/18739339/2c03fd1c-80a3-11e6-965e-1c70896af104.gif)
 
 
-[AnyKinMeasureCombExample.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyKinMeasureCombExample.any)
+[AnyKinMeasureCombExample.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/AnyKinMeasureCombExample.any)
 
 ### Understand the available settings for the rotational measure types
 Please feel free to add
@@ -138,7 +138,7 @@ The yellow coordinate system is the global reference system, the blue is a rotat
 For more details on how to use the AnyKinLinear please also see the tutorial http://www.anybodytech.com/677.0.html
 
 
-[AnyKinLinear.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyKinLinear.any)
+[AnyKinLinear.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/AnyKinLinear.any)
 
 
 ### Create a joint between an ellipsoid and a point
@@ -148,15 +148,15 @@ The first method relies on the fact that the distance from the first focal point
  
 The picture shows a sketch of the joint.
 
-[EllipsoidJointDemonstration.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/EllipsoidJointDemonstration.any)
-[EllipsoidJoint.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/EllipsoidJoint.any)
+[EllipsoidJointDemonstration.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/EllipsoidJointDemonstration.any)
+[EllipsoidJoint.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/EllipsoidJoint.any)
 
 The second method is more general and implements the equation of an ellipsoid directly. It uses a linear measure between the center of the ellipsoid and the point. The three components of this measure are inserted into a Norm Combination Measure, i.e. a measure that computes the powersum of its components. If we use the power of 2 and use the ellipsoid axis lengths as weight factors on the three components, then we can exactly express the ellipsoid equation:
 
 $$x^2/a + y^2/b + z^2/c = 1.$$
 
 Here's an example model.
-[Ellipsoid.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Ellipsoid.any)
+[Ellipsoid.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/Ellipsoid.any)
 
 ### Create a model of just a single arm
 
@@ -199,9 +199,9 @@ For an example of such a model please see the GaitVaughan or wheelChairRancho mo
 
 ### Define a constraint point on line or point on plane
 Here are two examples of how to define such constraints, with the line and plane defined by AnyRefNodes moving during the simulation.
-[Constraint_point_on_line.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/ConstraintPointOnLine.any)
+[Constraint_point_on_line.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/ConstraintPointOnLine.any)
 
- [Constraint_point_on_plane.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/ConstraintPointOnPlane.any)
+ [Constraint_point_on_plane.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/ConstraintPointOnPlane.any)
 
 ### Use a simple text file to drive a model
 This is a small example that uses a simple text file to create the motion in the model.
@@ -285,7 +285,7 @@ With the release of AMS 5.0 a new solver type was introduced which enables the s
 Basically, it finds the equilibrium for the degrees of freedom that you have specified as 'ForceDep'. It is a static equilibrium in the sense that the solver assumes accelerations and velocities of these degrees of freedom to be zero. 
 
 The small sample model display here illustrates the principle
-[FDKDisplayModel.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/FDKDisplayModel.any)
+[FDKDisplayModel.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinematics/FDKDisplayModel.any)
 
 For more details on the FDK capabilities and limitations, please see the section on FDK in the tutorials and manuals.
 
