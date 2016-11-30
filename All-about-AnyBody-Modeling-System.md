@@ -122,19 +122,19 @@ One possible method for easily viewing data (in Chart FX) imported from an AnyFu
 Sure. Please refer to the section entitled "Variables and expressions" in the reference manual. Most algebraic functions you can think of are available.
 
 
-## CAD files
+# CAD files
 
-# What type of data is required to import a particular bone morphology?
+## What type of data is required to import a particular bone morphology?
 
 The input for AnyBody is simple STL files. They are converted by AnyBody to ease subsequent handling of the data, so you are not able to find STL files in the repository, but that is all you need to input your own geometry data. The STL files can also represent the environment such as wheelchairs, floors, tools, and other model elements.
 
-# What is the source of your bone geometry data?
+## What is the source of your bone geometry data?
 
 They are from 3D scans from plastic skeletons. They are actually not in a very good quality and we would like to get access to better data, but of course they need to be without all sorts of restrictions about their use; this is both due to our own usage and due our desire to place them in the in the model repository.
 
-## Graphics
+# Graphics
 
-# Make trajectories visible
+## Make trajectories visible
 
 When developing models it is often convenient to be able to actually see the trajectory of a certain point (node) in the model such as a marker from a motion capture experiment or perhaps a joint center. The small example shows how this can be done by making use of the AnyChar object.
 
