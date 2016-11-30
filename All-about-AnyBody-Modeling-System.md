@@ -105,3 +105,18 @@ It is stated in this way because there is no guarantee that it will stay like th
 
 The columns of Cm each correspond to one muscle and they are ordered like the list of "Strong Muscles" in the file.
 Similarly, each column of Cr corresponds to a component of a reaction force with Type equal to On.
+
+
+## Running AnyBody in batch mode
+
+The AnyBody Modeling System comes with a command line version included. It is named AnyBodyCon.exe ("Con" for console application), and you will find it in the directory where you install AnyBody. The command line version is - as the name indicates - a version of the AnyBody Modeling System with the user interface stripped off. This means that it is executed from a DOS command prompt or - more importantly - by a batch file or another software application.
+
+
+## Create and output function
+
+One possible method for easily viewing data (in Chart FX) imported from an AnyFunInterpol {} function is to use this attached bit of code. It resamples the data to be consistent with tStart and tEnd used in your study. One note is that the abscissa in the Chart 2d is by default the global time. If you want to see the data plotted against its real T values, you need to change the Chart 2d abscissa to use the 'adjustedTime_Data' in the outputFunData2. The curves will be the same, just the axis labels will be different. Media:interp_outputFun.Main.any uses the data file: Media:P1.txt.any (which you need to rename to P1.txt)
+
+
+## Is it possible to write Mathematical expressions in AnyScipt?
+
+Sure. Please refer to the section entitled "Variables and expressions" in the reference manual. Most algebraic functions you can think of are available.
