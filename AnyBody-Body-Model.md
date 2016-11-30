@@ -22,7 +22,7 @@ The Body parts does not contain any motion drivers for the body parts. These are
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20754040/5ebe7e16-b709-11e6-8beb-8d8754ff5e32.png)
 
-In the image, the Body parts have no drivers applied.
+*In the image, the Body parts have no drivers applied.*
 
 ## The ShoulderArm Model
 
