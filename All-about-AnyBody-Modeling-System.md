@@ -71,7 +71,7 @@ This sample code is shows how to make use of the filter
 
 The AnyInputFile can be used for reading in input files from text files and place the data in a matrix or vector. This matrix can then be used for interpolationdrivers ect. Try to load the model and once it has loaded please try to look in the model tree and explore the Data folder which now contains the data loaded from the file.
 
-[InputFiles2.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/InputFiles.any)
+[InputFiles.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/InputFiles.any)
 
 [InputTest.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/AnyBody_Modelling_System/InputTest.any)
 
