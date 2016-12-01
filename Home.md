@@ -43,6 +43,7 @@ Model and Validation:
 * [[Loading AMMR 1.5 models in AMS 6.0]]
 * [[How to make a KneeBend Model from a template]]
 * [[How to use the AnyBody-GlasgowMaastricht foot model (Foot-GM)]]
+* [[Musculoskeletal joint shoulder model tutorial]]
 
 
 Webcast Examples:
