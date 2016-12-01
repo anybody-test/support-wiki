@@ -20,8 +20,7 @@ Installation Procedure
 
 #### Access to the software:
 
-A self-installing exe file is available at
-www.anybodytech.com/download.html?did=anybody.overview.
+A self-installing exe file is available [here](www.anybodytech.com/download.html?did=anybody.overview.).
 
 Notice:
 * It requires AnyBodyTM Web-user login. If you are not a registered web-user already, you
