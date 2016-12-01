@@ -12,6 +12,9 @@ In the operations [1], there is usually under study an option to replay the mode
 
 To open the ModelView or look at graphs, open Windows [1] and then select your choice. ChartFX is an external graph-viewer, it is relatively old and not supported anymore. It may causes problems in the latest AMS versions and will be removed soon.
 
+![image](https://cloud.githubusercontent.com/assets/22542671/20790642/878c3c92-b7b9-11e6-9774-16d3eba743f7.png)
+
+
 You can see [1] the progress of the Model while running and see "what's going on" at [2]. If errors or warnings appear in your model, they will be visualized at [2], you can click on them to see where/what causes them and most times there will be a description of the error/warning.
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20790535/11188c96-b7b9-11e6-8788-13bdda011762.png)
