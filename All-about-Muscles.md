@@ -1,3 +1,11 @@
++ [Is there any post processing of Muscle force Fm is needed such as Root Mean Square, Average or any other (Kindly suggest any) to interpret or comparison between different conditions](#is-there-any-post-processing-of-muscle-force-fm-is-needed-such-as-root-mean-square-average-or-any-other-kindly-suggest-any-to-interpret-or-comparison-between-different-conditions)
++ [What variable of the muscle in our simulation results is equivalent to the EMG data at real time, Fm, Ft, Muscle activity, average activity or any ?](#what-variable-of-the-muscle-in-our-simulation-results-is-equivalent-to-the-emg-data-at-real-time-fm-ft-muscle-activity-average-activity-or-any-)
++ [Does Overload Muscle Configuration causes error in the analysis?](#does-overload-muscle-configuration-causes-error-in-the-analysis)
++ [Is it reasonable to observe that agonist and antagonist muscles are active at the same time?](#is-it-reasonable-to-observe-that-agonist-and-antagonist-muscles-are-active-at-the-same-time)
++ [How is physiological coactivation predicted by the objective functions in the muscle recruitment problem?](#how-is-physiological-coactivation-predicted-by-the-objective-functions-in-the-muscle-recruitment-problem)
++ [How to make use of the muscle normalization factor available in the AnyBodyStudy](#how-to-make-use-of-the-muscle-normalization-factor-available-in-the-anybodystudy)
+
+
 ## Is there any post processing of Muscle force Fm is needed such as Root Mean Square, Average or any other (Kindly suggest any) to interpret or comparison between different conditions
 
 There is no statistical post-processing included in the models. However, Anybody is a Modeling System, you can create all kind of functions in it. If the value is available at the time, you can create all sort of statistical or mthematical computations. In your ModelView you see a tab with "Globals" and "Functions" to you left, please have a look in there. On the other hand, in "Classes" you can easily make an AnyOutputFile and output the wanted values and do postprocessing in MatLab, SPSS, etc...
