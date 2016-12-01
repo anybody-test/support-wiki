@@ -26,6 +26,8 @@ here are some links to explanations
 
 http://4.bp.blogspot.com/-mtuyXGxbPL0/Tjqnjf63WfI/AAAAAAAAAGM/bf4Vol7y7fE/s1600/anatomical-planes.jpg
 
+![image](https://cloud.githubusercontent.com/assets/22542671/20790733/05e0c9be-b7ba-11e6-990d-82fa2310302d.png)
+
 http://body-disease.com/wp-content/uploads/2012/03/Anatomical-position-showing-the-cardinal-planes-and-directional-terminology.jpeg
 
 
