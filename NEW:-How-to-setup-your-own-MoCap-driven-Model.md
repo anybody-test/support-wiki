@@ -5,7 +5,7 @@
     + [How to setup the model?](#how-to-setup-the-model)
     + [Let’s open the Environment.any file and have a look at it:](#lets-open-the-environmentany-file-and-have-a-look-at-it)
     + [Let’s open the ModelSetup.any file and in there the marker.any file to have a look at it:](#lets-open-the-modelsetupany-file-and-in-there-the-markerany-file-to-have-a-look-at-it)
-    + [Let’s open the TrialSpecific.any file and have a look at it:](#let’s-open-the-trialspecific.any-file-and-have-a-look-at-it)
+    + [Let’s open the TrialSpecific.any file and have a look at it:](#lets-open-the-trialspecificany-file-and-have-a-look-at-it)
 - [Possible Errors](#possible-errors)
     + [Missing markers](#missing-markers)
     + [Missing calibration matrix definition](#missing-calibration-matrix-definition)
