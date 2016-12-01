@@ -43,7 +43,7 @@ Resolve kinematic problems
 
 #### General
 
-The description below is generic and applies to all type of models. If your model is driven by motion capture data please also see this section http://wiki.anyscript.org/index.php/How_to_setup_your_own_MoCap_driven_Model#Kinematic_analysis_fails
+The description below is generic and applies to all type of models. If your model is driven by motion capture data please also see this [section](https://github.com/AnyBody/support/wiki/NEW:-How-to-setup-your-own-MoCap-driven-Model#kinematic-analysis-fails).
 
 1. In the ModelTree locate the study, then right click and select "Object description" this will give a list of all drivers, joints etc in the current model.
 2. Sometime a sketch on how the model is driven is a good idea, try to imagine what possibly could cause the problem. Pay attention to redundant drivers, it is not enough that the model DOF count is ok, redundant drivers may cause problems. 
