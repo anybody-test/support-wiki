@@ -52,9 +52,8 @@ This is a list of the bones in the human body:
 
 here is a picture of the names of the bones:
 
-![image](https://cloud.githubusercontent.com/assets/22542671/20790747/15fde890-b7ba-11e6-8564-154fcd4f02b4.png)
+![image](http://www.cancerindex.org/medterm/medtm7.gif)
 
-http://www.cancerindex.org/medterm/medtm7.gif
 
 here is s link to the hand bones:
 
