@@ -2,7 +2,8 @@
 
 ![anyscriptcommunity](https://cloud.githubusercontent.com/assets/22542671/20796898/d0ecfb1e-b7d8-11e6-9268-88e6408eea7a.jpg)
 
-This wiki is all about supporting the AnyScript modeling language and AnyBody Modeling System™
+This wiki is all about supporting the AnyScript modeling language
+and AnyBody Modeling System™
 
 More Tips & Tricks can be found on the [AnyBody YouTube channel](http://www.youtube.com/user/anybodytech)
 
