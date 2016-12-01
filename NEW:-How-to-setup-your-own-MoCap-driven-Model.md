@@ -1,6 +1,6 @@
 The AnyBody Modeling System v6.0 (AMS) and the AnyBody Managed Model Repository v1.6 (AMMR) are used in this example.
 
-- [What do you need to process your own C3D model?](what_do_you_need_to_process_your_own_C3D_model)
+- [What do you need to process your own C3D model?](#what_do_you_need_to_process_your_own_C3D_model)
     + [What is the structure of the MoCap Model example?](What_is_the_structure_of_the_MoCap_Model_example)
     + [MotionAndParameterOptimization](MotionAndParameterOptimization)
     + [InverseDynamics](InverseDynamics)
