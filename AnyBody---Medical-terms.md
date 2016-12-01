@@ -22,9 +22,8 @@ inferior = downwards
 
 here are some links to explanations
 
-![image](https://cloud.githubusercontent.com/assets/22542671/20790717/ee630b58-b7b9-11e6-9568-6dac2a7cec51.png)
+![image](http://4.bp.blogspot.com/-mtuyXGxbPL0/Tjqnjf63WfI/AAAAAAAAAGM/bf4Vol7y7fE/s1600/anatomical-planes.jpg)
 
-http://4.bp.blogspot.com/-mtuyXGxbPL0/Tjqnjf63WfI/AAAAAAAAAGM/bf4Vol7y7fE/s1600/anatomical-planes.jpg
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20790733/05e0c9be-b7ba-11e6-990d-82fa2310302d.png)
 
