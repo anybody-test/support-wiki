@@ -1,5 +1,15 @@
 Computer Requirements for the AnyBody Modeling System v6.0.2
 
++ [Operating system](#operating-system)
++ [Memory](#memory)
++ [Processor](#processor)
++ [Graphics](#graphics)
++ [Hard drive](#hard-drive)
++ [Web Browser](#web-browser)
++ [SolidWorks](#solidworks)
++ [Python](#python)
+
+
 ## Operating system:
 AnyBody runs only on standard Windows PC computers with Windows Vista, Windows 7 or Windows 8 operating systems.
 AnyBody may work on earlier Windows operating systems, but this is not supported.
