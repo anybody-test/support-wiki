@@ -80,7 +80,7 @@ Error Messages
 
 
 Resources:
-* [http://www.anybodytech.com/index.php?id=716 Publications using AnyBody]
+* [Publications using AnyBody](http://www.anybodytech.com/index.php?id=716)
 
 
 Other useful Information:
