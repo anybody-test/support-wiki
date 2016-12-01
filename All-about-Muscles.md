@@ -1,4 +1,4 @@
-## Is there any post processing of Muscle force Fm is needed such as Root Mean Square, Average or any other (Kindly suggest any ) to interpret or comparison between different conditions
+## Is there any post processing of Muscle force Fm is needed such as Root Mean Square, Average or any other (Kindly suggest any) to interpret or comparison between different conditions
 
 There is no statistical post-processing included in the models. However, Anybody is a Modeling System, you can create all kind of functions in it. If the value is available at the time, you can create all sort of statistical or mthematical computations. In your ModelView you see a tab with "Globals" and "Functions" to you left, please have a look in there. On the other hand, in "Classes" you can easily make an AnyOutputFile and output the wanted values and do postprocessing in MatLab, SPSS, etc...
 
