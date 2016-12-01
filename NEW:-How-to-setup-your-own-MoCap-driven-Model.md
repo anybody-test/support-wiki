@@ -16,7 +16,7 @@ The AnyBody Modeling System v6.0 (AMS) and the AnyBody Managed Model Repository 
     + [What is the correct force plate type from the C3D files?](What_is_the_correct_force_plate_type_from_the_C3D_files)
     + [What's the difference between the ForcePlateType4AutoDetection and ForcePlateType4 files?](What's_the_difference_between_the_ForcePlateType4AutoDetection_and_ForcePlateType4_files?)
     + [How to run MotionAndParameterOptimizationModel process using MoCap model if there are some missing markers on the upper body?](How_to_run_MotionAndParameterOptimizationModel_process_using_MoCap_model_if_there_are_some_missing_markers_on_the_upper_body)
-    + [How to change my model when the lab coordinate system is different from that of the default MoCap model?](How_to_change_my_model_when_the_lab_coordinate_system_is_different_from_that_of_the_default_MoCap_model)
+    + [How to change my model when the lab coordinate system is different from that of the default MoCap model?](#How_to_change_my_model_when_the_lab_coordinate_system_is_different_from_that_of_the_default_MoCap_model)
 
 
 
