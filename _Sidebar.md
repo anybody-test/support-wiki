@@ -8,7 +8,7 @@
 + [Model and Validation](#model-and-validation)
 + [Webcast Examples](#webcast-examples)
 + [AnyGait](#anygait)
-+ [AnyBody/AnyBody interfaces/ other tools:](#anybody-anybody-interfaces-other-tools)
++ [AnyBody/AnyBody interfaces/ other tools](#anybody-anybody-interfaces-other-tools)
 + [Using AnyBody from external programs](#using-anybody-from-external-programs)
 + [Error messages](#error-messages)
 + [Resources](#resources)
