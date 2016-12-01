@@ -77,9 +77,8 @@ More Tips & Tricks can be found on the [AnyBody YouTube channel](http://www.yout
 ## Error Messages
 * [[General]]
 
-## [[FAQ]]
 
 ## Resources:
 * [Publications using AnyBody](http://www.anybodytech.com/index.php?id=716)
 
-
+## [[FAQ]]
