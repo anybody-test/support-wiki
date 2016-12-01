@@ -1,5 +1,31 @@
 The AnyBody Modeling System v6.0 (AMS) and the AnyBody Managed Model Repository v1.6 (AMMR) are used in this example.
 
+- [What do you need to process your own C3D model?](what_do_you_need_to_process_your_own_C3D_model)
+    + [What is the structure of the MoCap Model example?](What_is_the_structure_of_the_MoCap_Model_example)
+    + [MotionAndParameterOptimization](MotionAndParameterOptimization)
+    + [InverseDynamics](InverseDynamics)
+    + [How to setup the model?](How_to_setup_the_model)
+    + [Let’s open the Environment.any file and have a look at it:](Let’s_open_the_Environment.any_file_and_have_a_look_at_it)
+    + [Let’s open the ModelSetup.any file and in there the marker.any file to have a look at it:](Let’s_open_the_ModelSetup.any_file_and_in_there_the_marker.any_file_to_have_a_look_at_it)
+    + [Let’s open the TrialSpecific.any file and have a look at it:](Let’s_open_the_TrialSpecific.any_file_and_have_a_look_at_it)
+- [Possible Errors](Possible_Errors)
+    + [Missing markers](Missing_markers)
+    + [Missing calibration matrix definition](Missing_calibration_matrix_definition)
+    + [Model is kinematically unconstrained](Model_is_kinematically_unconstrained)
+    + [Kinematic analysis fails](Kinematic_analysis_fails)
+    + [What is the correct force plate type from the C3D files?](What_is_the_correct_force_plate_type_from_the_C3D_files)
+    + [What's the difference between the ForcePlateType4AutoDetection and ForcePlateType4 files?](What's_the_difference_between_the_ForcePlateType4AutoDetection_and_ForcePlateType4_files?)
+    + [How to run MotionAndParameterOptimizationModel process using MoCap model if there are some missing markers on the upper body?](How_to_run_MotionAndParameterOptimizationModel_process_using_MoCap_model_if_there_are_some_missing_markers_on_the_upper_body)
+    + [How to change my model when the lab coordinate system is different from that of the default MoCap model?](How_to_change_my_model_when_the_lab_coordinate_system_is_different_from_that_of_the_default_MoCap_model)
+
+
+
+
+
+
+
+
+
 # What do you need to process your own C3D model?
 
 1. You need a C3D file of the recorded trial: In most cases it is easy to switch between trials recorded in Vicon, Qualisys, Simi, ... Many of our users have the Plug-In-Gait marker protocol or something similar. Different protocols are also applicable. Additional markers can easily be added to the model. Force data from Force Platforms is necessary to ensure a smooth processing of the trials. It is also possible to use BVH files from XSens, Animazoo, Kinect, ...
