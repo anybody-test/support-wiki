@@ -1,3 +1,7 @@
++ [Extrapolations not allowed](#extrapolations-not-allowed)
++ [How to display visually a reference frame](#how-to-display-visually-a-reference-frame-)
+
+
 Extrapolations not allowed
 ---
 
@@ -18,7 +22,7 @@ If the input to the interpolation function is a kinematic measure (for example M
 1. T vector must contain 0 because when the model loads any kinematic measure is zero and it will make a call to the interpolation function with zero
 2. T vector must contain the value of your kinematic measure when all segments are in loading positions. The reason is that this is where the kinematic analysis starts and the interpolation function will be calculated for every step the solver needs to approach the solution
 
-How-to display visually a reference frame 
+How to display visually a reference frame 
 ---
 When creating or modifying a model, it is sometimes important to be able to visualize the locations of reference systems. 
 The AnyDrawRefFrame object can be used for this.
