@@ -50,7 +50,6 @@ Webcast Examples:
 * [[Example from the exoskeleton webcast]]
 * [[Example from the Man-Machine webcast]]
 * [[Example from the Personalize your musculoskeletal models webcast]]
-* [[Example from the Personalize your musculoskeletal models webcast]]
 * [[Example from the Musculoskeletal Modelling from Scratch webcast]]
 
 
