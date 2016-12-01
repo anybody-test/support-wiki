@@ -65,7 +65,7 @@ Sometimes it can cause troubles to resolve recruitment errors. In general recrui
 
 In the ModelTree locate the study, then right click and select "Object description" this will give a list of all drivers, joints etc in the current study, it will also provide a list of all active reactions etc., this migth help.
 
-When using the 3 elements muscle model a common problem is to forget to run the [http://wiki.anyscript.org/index.php/FAQ#Why_should_I_run_a_calibration_when_using_the_3_elements_muscle_model.3F_And_how_does_it_work.3F calibration sequence]. Remenber to select RunApplication in the operation tree to run the calibration.
+When using the 3 elements muscle model a common problem is to forget to run the [calibration sequence](http://wiki.anyscript.org/index.php/FAQ#Why_should_I_run_a_calibration_when_using_the_3_elements_muscle_model.3F_And_how_does_it_work.3F). Remenber to select RunApplication in the operation tree to run the calibration.
 
 Resolve wrapping problems
 ---
