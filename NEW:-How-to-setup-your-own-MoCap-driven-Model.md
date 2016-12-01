@@ -1,5 +1,5 @@
-- [What do you need to process your own C3D model?](#what-do-you-need-to-process-your-own-C3D-model)
-    + [What is the structure of the MoCap Model example?](#What-is-the-structure-of-the-MoCap-Model-example)
+- [What do you need to process your own C3D model?](#what-do-you-need-to-process-your-own-c3d-model)
+    + [What is the structure of the MoCap Model example?](#what-is-the-structure-of-the-mocap-model-example)
     + [MotionAndParameterOptimization](#MotionAndParameterOptimization)
     + [InverseDynamics](#InverseDynamics)
     + [How to setup the model?](#How-to-setup-the-model)
