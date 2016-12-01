@@ -12,4 +12,4 @@
 + [Using AnyBody from external programs](#using-anybody-from-external-programs)
 + [Error messages](#error-messages)
 + [Resources](#resources)
-
++ [FAQ](https://github.com/AnyBody/support/wiki/FAQ)
