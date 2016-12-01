@@ -1,7 +1,7 @@
 - [Installation Procedure](#installation-procedure)
     + [Access to the software:](#access-to-the-software)
     + [Install and launch AnyBody:](#install-and-launch-anybody)
-    + [Register your license(s):](#register-your-license-s)
+    + [Register your license(s):](#register-your-licenses)
 - [Some license related problems and solutions](#some-license-related-problems-and-solutions)
     + [License Status: "Bad signature in license (-5)"](#license-status---bad-signature-in-license---5)
     + [License Status: "No license check or No authorization for product or License server doesn’t support this. Make sure you have imported a valid license file."](#license-status---no-license-check-or-no-authorization-for-product-or-license-server-doesn-t-support-this-make-sure-you-have-imported-a-valid-license-file)
