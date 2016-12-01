@@ -55,7 +55,6 @@ More Tips & Tricks can be found on the [AnyBody YouTube channel](http://www.yout
 
 ## AnyGait:
 * [[General Remarks]]
-* [[Using AnyGait]]
 * [[Changing AnyGait]]
 
 
@@ -65,10 +64,6 @@ More Tips & Tricks can be found on the [AnyBody YouTube channel](http://www.yout
 * [[All about Finite Element interface]]
 * [[All about including a Python Hook]]
 * [[Animated GIF files from AnyBody]]
-
-
-## User contributed models not in AMMR:
-* [[Wait and see]] 
 
 
 ## Using AnyBody from external programs:
@@ -82,7 +77,4 @@ More Tips & Tricks can be found on the [AnyBody YouTube channel](http://www.yout
 ## Resources:
 * [Publications using AnyBody](http://www.anybodytech.com/index.php?id=716)
 
-
-## Other useful Information:
-* [[Guidelines: how to contribute to the wiki]]
 
