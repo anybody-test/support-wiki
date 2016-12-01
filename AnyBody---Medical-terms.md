@@ -64,4 +64,6 @@ http://upload.wikimedia.org/wikipedia/commons/7/73/Sobo_1909_130.png
 
 here is a link to the foot bones:
 
+![image](https://cloud.githubusercontent.com/assets/22542671/20790789/4048e2da-b7ba-11e6-889b-fe4e23691cb9.png)
+
 http://www.medicalexhibits.com/obrasky/2012/12114_09X.jpg
