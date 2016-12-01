@@ -6,11 +6,11 @@
     + [License Status: "Bad signature in license (-5)"](#license-status-bad-signature-in-license--5)
     + [License Status: "No license check or No authorization for product or License server doesn’t support this. Make sure you have imported a valid license file."](#license-status-no-license-check-or-no-authorization-for-product-or-license-server-doesnt-support-this-make-sure-you-have-imported-a-valid-license-file)
     + [License Status: "All licenses in use (-22)"](#license-status-all-licenses-in-use--22)
-    + [License Status: "Wrong host for license (-4)"](#license-status---wrong-host-for-license---4)
-    + [License Status: "Communication with server failed! Please make sure the server has been started."](#license-status---communication-with-server-failed--please-make-sure-the-server-has-been-started)
+    + [License Status: "Wrong host for license (-4)"](#license-status-wrong-host-for-license--4)
+    + [License Status: "Communication with server failed! Please make sure the server has been started."](#license-status-communication-with-server-failed-please-make-sure-the-server-has-been-started)
     + [How to make the license work for FE converters](#how-to-make-the-license-work-for-fe-converters)
 - [Typical Problems](#typical-problems)
-    + [It is impossible to contact the server from the client althought the server is available from the network, with service started:](#it-is-impossible-to-contact-the-server-from-the-client-althought-the-server-is-available-from-the-network--with-service-started)
+    + [It is impossible to contact the server from the client althought the server is available from the network, with service started:](#it-is-impossible-to-contact-the-server-from-the-client-althought-the-server-is-available-from-the-network-with-service-started)
     + [Which port should be used when a 2nd RLM service already uses port 5054 on the same server?:](#which-port-should-be-used-when-a-2nd-rlm-service-already-uses-port-5054-on-the-same-server)
 
 
