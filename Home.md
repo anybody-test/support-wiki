@@ -2,7 +2,7 @@
 
 This wiki is all about supporting the AnyScript modeling language and AnyBody Modeling System™
 
-More Tips & Tricks can be found on the (AnyBody YouTube channel)[http://www.youtube.com/user/anybodytech]
+More Tips & Tricks can be found on the [AnyBody YouTube channel](http://www.youtube.com/user/anybodytech)
 
 ---
 ## General use of AnyBody
