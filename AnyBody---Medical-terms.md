@@ -58,6 +58,8 @@ http://www.cancerindex.org/medterm/medtm7.gif
 
 here is s link to the hand bones:
 
+![image](https://cloud.githubusercontent.com/assets/22542671/20790774/2d1ac5d4-b7ba-11e6-83ce-57b3abcc4ee3.png)
+
 http://upload.wikimedia.org/wikipedia/commons/7/73/Sobo_1909_130.png
 
 here is a link to the foot bones:
