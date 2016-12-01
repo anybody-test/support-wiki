@@ -5,7 +5,7 @@ This wiki is all about supporting the AnyScript modeling language and AnyBody Mo
 More Tips & Tricks can be found on the (AnyBody YouTube channel)[http://www.youtube.com/user/anybodytech]
 
 ---
-General use of AnyBody
+## General use of AnyBody
 * [[General description of AnyBody]]
 * [[AMS Basics]]
 * [[AnyBody - How to get the AMMR]]?
@@ -14,7 +14,7 @@ General use of AnyBody
 * [[License and Installation]]
 
 
-AMS Tips and Tricks:
+## AMS Tips and Tricks:
 * [[Model trouble shooting]]
 * [[All about Kinematics]]
 * [[All about Kinetics]]
@@ -22,7 +22,7 @@ AMS Tips and Tricks:
 * [[All about Muscles]]
 
 
-AMS advanced features:
+## AMS advanced features:
 * [[All about Force Dependent Kinematics]]
 * [[All about FrictionContactMuscles]]
 * [[All about Surface Contact Modeling]]
@@ -33,7 +33,7 @@ AMS advanced features:
 * [[Caching the result of muscle calibration]]
 
 
-Model and Validation:
+## Model and Validation:
 * [[AnyBody Body Model]]
 * [[Validation examples]]
 * [[FAQ about Repository & Validation]]
@@ -46,20 +46,20 @@ Model and Validation:
 * [[Musculoskeletal joint shoulder model tutorial]]
 
 
-Webcast Examples:
+## Webcast Examples:
 * [[Example from the exoskeleton webcast]]
 * [[Example from the Man-Machine webcast]]
 * [[Example from the Personalize your musculoskeletal models webcast]]
 * [[Example from the Musculoskeletal Modelling from Scratch webcast]]
 
 
-AnyGait:
+## AnyGait:
 * [[General Remarks]]
 * [[Using AnyGait]]
 * [[Changing AnyGait]]
 
 
-AnyBody/ AnyBody interfaces/ other tools:
+## AnyBody/ AnyBody interfaces/ other tools:
 * [[How to install and load SolidWorks2AnyBody]]
 * [[Using Notepad++ to edit AnyScipt]]
 * [[All about Finite Element interface]]
@@ -67,22 +67,22 @@ AnyBody/ AnyBody interfaces/ other tools:
 * [[Animated GIF files from AnyBody]]
 
 
-User contributed models not in AMMR:
+## User contributed models not in AMMR:
 * [[Wait and see]] 
 
 
-Using AnyBody from external programs:
+## Using AnyBody from external programs:
 * [How to use AnyBody from Python](http://nbviewer.ipython.org/github/AnyBody-Research-Group/AnyPyTools/blob/master/Tutorial/00_AnyPyTools_tutorial.ipynb)
 
 
-Error Messages
+## Error Messages
 * [[General]]
 
 
-Resources:
+## Resources:
 * [Publications using AnyBody](http://www.anybodytech.com/index.php?id=716)
 
 
-Other useful Information:
+## Other useful Information:
 * [[Guidelines: how to contribute to the wiki]]
 
