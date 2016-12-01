@@ -72,7 +72,7 @@ User contributed models not in AMMR:
 
 
 Using AnyBody from external programs:
-* [http://nbviewer.ipython.org/github/AnyBody-Research-Group/AnyPyTools/blob/master/Tutorial/00_AnyPyTools_tutorial.ipynb How to use AnyBody from Python ]
+* [How to use AnyBody from Python](http://nbviewer.ipython.org/github/AnyBody-Research-Group/AnyPyTools/blob/master/Tutorial/00_AnyPyTools_tutorial.ipynb)
 
 
 Error Messages
