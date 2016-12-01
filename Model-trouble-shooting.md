@@ -1,6 +1,13 @@
 + [Extrapolations not allowed](#extrapolations-not-allowed)
 + [How to display visually a reference frame](#how-to-display-visually-a-reference-frame-)
-
+    - [Object already declared error](#object-already-declared-error)
++ [Resolve kinematic problems](#resolve-kinematic-problems)
+    - [General](#general)
+    - [Overdeterminate solver returning NaN](#overdeterminate-solver-returning-nan)
++ [Make the solution of the inverse problem stable?](#make-the-solution-of-the-inverse-problem-stable)
++ [Resolve wrapping problems](#resolve-wrapping-problems)
+    - [OOS contact solver failiure](#oos-contact-solver-failiure)
+    - [Penetration errors](#penetration-errors)
 
 Extrapolations not allowed
 ---
