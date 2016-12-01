@@ -1,3 +1,23 @@
++ [Where do I change the cost function for the muscles?](#where-do-i-change-the-cost-function-for-the-muscles)
++ [Does the spine rhythm impose any stiffness on the model?](#does-the-spine-rhythm-impose-any-stiffness-on-the-model)
++ [Why is it ok to have a reaction force between the pelvis and environment if you have measured ground reaction forces?](#why-is-it-ok-to-have-a-reaction-force-between-the-pelvis-and-environment-if-you-have-measured-ground-reaction-forces)
++ [How should the force output from the joint be interpreted?](#how-should-the-force-output-from-the-joint-be-interpreted)
++ [I have a different force plate setup than used in the applications of the repository what should I do?](#i-have-a-different-force-plate-setup-than-used-in-the-applications-of-the-repository-what-should-i-do)
++ [How is it possible that the model will calculate automatically the reaction forces with the environment?](#how-is-it-possible-that-the-model-will-calculate-automatically-the-reaction-forces-with-the-environment)
++ [Can elastic elements (ligaments, cartilage..) be modelled?](#can-elastic-elements-ligaments-cartilage-be-modelled)
++ [How do you specify the center of pressure during the gait?](#how-do-you-specify-the-center-of-pressure-during-the-gait)
++ [Does the AnyBody Modeling System compute joint moments?](#does-the-anybody-modeling-system-compute-joint-moments)
++ [I have a body model that is supported by the floor/a chair/a bed/a bicycle/... Do I have to specify the reaction forces or can the model compute them automatically?](#i-have-a-body-model-that-is-supported-by-the-floora-chaira-beda-bicycle-do-i-have-to-specify-the-reaction-forces-or-can-the-model-compute-them-automatically)
++ [Can i constrain the reaction forces to have a certain direction?](#can-i-constrain-the-reaction-forces-to-have-a-certain-direction)
++ [How can i constraint the magnitude of a reaction force?](#how-can-i-constraint-the-magnitude-of-a-reaction-force)
++ [Adding stiffness in joint](#adding-stiffness-in-joint)
++ [Understand the reactions in the Glenohumeral Joint](#understand-the-reactions-in-the-glenohumeral-joint)
++ [Measure the reaction force in a joint in a certain coordinate system](#measure-the-reaction-force-in-a-joint-in-a-certain-coordinate-system)
++ [Measure the moment created by the muscles around a joint degree of freedom in a certain coordinate system](#measure-the-moment-created-by-the-muscles-around-a-joint-degree-of-freedom-in-a-certain-coordinate-system)
+
+
+
+
 ## Where do I change the cost function for the muscles?
 
 This is done in the AnyBodyStudy object of the model, it has several options available. 
@@ -114,7 +134,7 @@ This small example showing how to add "rotational spring" in a joint using an in
 [StiffnessInJoint.any](https://raw.githubusercontent.com/AnyBody/support/master/Wiki_Files/Kinetics/StiffnessInJoint.any)
 
 
-## Understand the reactions in the Glenohumeral Joint== 
+## Understand the reactions in the Glenohumeral Joint
 The glenohumeral joint is a bit tricky because of the special reaction applied in the gh joint.
 This reaction ensures that the reaction force always falls within the glenoid cavity.
 
