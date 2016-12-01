@@ -37,15 +37,15 @@ We imagine that an assembly of an exercise machine has been created in SolidWork
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20789745/e3940fc8-b7b5-11e6-8622-a993daf9af62.png)
 
-1. In the SolidWorks2AnyBody™ pull-down menu, choose the ‘Export to AnyScript’ operation.
+1) In the SolidWorks2AnyBody™ pull-down menu, choose the ‘Export to AnyScript’ operation.
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20789755/f174419e-b7b5-11e6-814b-881a8996510c.png)
 
-2. A dialog with export options appears.
+2) A dialog with export options appears.
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20789768/fe60e808-b7b5-11e6-9bb5-153d61d9e4d1.png)
 
-3. Next, type the name of the AnyScript™ (.any) file to be created. Then click the ‘Save’ button.
+3) Next, type the name of the AnyScript™ (.any) file to be created. Then click the ‘Save’ button.
 
 ![image](https://cloud.githubusercontent.com/assets/22542671/20789788/0c87febc-b7b6-11e6-9845-5538abaae427.png)
 
