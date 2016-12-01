@@ -10,3 +10,18 @@ Any methods could be perform to achieve these requirements. This tutorial will d
 # Musculoskeletal analyse
 
 ## 1. Basic concepts to use Anybody<sup>TM</sup> software
+
+Anybody software user interface is composed of different parts.
+
+![image](https://cloud.githubusercontent.com/assets/22542671/20788134/b570d4b0-b7af-11e6-8131-40268731a2d7.png)
+
+**User interface windows of AnyBody software
+
+| Legend        | Window name    | Description                                                                         |
+| ------------- |:--------------:| -----------------------------------------------------------------------------------:|
+| A             | Editor Window  | Edition file windows *.any will contain the AnyScript<sup>TM</sup> text.            |
+| B             | Model View     | Graphic visualisation model window. Access: Window > Model View (new)               |
+| C             | AnyChart       | Graphic results display. Access: Window > Chart 2D/3D (new)                         |
+| D             | Main Tree Widow| Model and operations display: hierarchical representations of the model defined in A|
+| E             | Log window     | Information about calculation in progress, alerts and errors.                       |
+| F             | Progress Window| Information about processing analyse.                                               |
