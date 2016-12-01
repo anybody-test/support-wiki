@@ -1,3 +1,29 @@
++ [Does the AnyBody Modeling System allow plug-ins? For example, can the user specify his own muscle model or apply a new analysis?](#does-the-anybody-modeling-system-allow-plug-ins-for-example-can-the-user-specify-his-own-muscle-model-or-apply-a-new-analysis)
++ [Why did you choose to develop a text-based interface for constructing models rather than a graphical interface?](#why-did-you-choose-to-develop-a-text-based-interface-for-constructing-models-rather-than-a-graphical-interface)
++ [Can I export computation data to my spreadsheet?](#can-i-export-computation-data-to-my-spreadsheet)
++ [Save Load and Replay Results](#save-load-and-replay-results)
++ [Create a ButterworthFilter](#create-a-butterworthfilter)
++ [Use an input file](#use-an-input-file)
++ [Changing raw data inside AnyBody](#changing-raw-data-inside-anybody)
++ [Create an output file](#create-an-output-file)
++ [Understand the ExportEquilibrium file](#understand-the-exportequilibrium-file)
++ [Running AnyBody in batch mode](#running-anybody-in-batch-mode)
++ [Create and output function](#create-and-output-function)
++ [Is it possible to write Mathematical expressions in AnyScipt?](#is-it-possible-to-write-mathematical-expressions-in-anyscipt)
++ [CAD Files](#cad-files)
+    - [What type of data is required to import a particular bone morphology?](#what-type-of-data-is-required-to-import-a-particular-bone-morphology)
+    - [What is the source of your bone geometry data?](#what-is-the-source-of-your-bone-geometry-data)
++ [Graphics](#graphics)
+    - [Make trajectories visible](#make-trajectories-visible)
+    - [Display the center of mass of the entire model](#display-the-center-of-mass-of-the-entire-model)
+    - [Create a camera](#create-a-camera)
+    - [How to move the location of a CAD file](#how-to-move-the-location-of-a-cad-file)
++ [General](#general)
+    - [Coordinate transformations local to global and visa versa](#coordinate-transformations-local-to-global-and-visa-versa)
+
+
+
+
 ## Does the AnyBody Modeling System allow plug-ins? For example, can the user specify his own muscle model or apply a new analysis?
 
 Both yes and no! We do not have an interface (exit) that allows you to program your own bit of the analysis in like C or FORTRAN and link that to AnyBody. We would like to do so of course, but it is not on the here-and-now-to-do list. We have a few close collaborators where we made special arrangements though, but we have not yet done so in a more formal way. We do however plan to open as much as possible for customization of objects from the interface and muscle models is indeed one issue where we will. Another issue is the definition of the objective function for muscle recruitment. We are currently working on a new feature to the system that will allow the user to define his/her own muscle model. If the user can formulate the muscle strength as an analytical function of length and contraction velocity, then he can code it into his own muscle model and use it in the analysis. We are always very open for suggestions on model features, we ought to include. Any feedback on desired customization options and maybe even plug-ins are very welcome.
