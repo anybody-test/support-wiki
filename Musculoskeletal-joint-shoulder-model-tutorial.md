@@ -18,7 +18,7 @@ Anybody software user interface is composed of different parts.
 **User interface windows of AnyBody software
 
 | Legend        | Window name    | Description                                                                         |
-| ------------- |:--------------:| -----------------------------------------------------------------------------------:|
+| :-----------: |:--------------:| :----------------------------------------------------------------------------------:|
 | A             | Editor Window  | Edition file windows *.any will contain the AnyScript<sup>TM</sup> text.            |
 | B             | Model View     | Graphic visualisation model window. Access: Window > Model View (new)               |
 | C             | AnyChart       | Graphic results display. Access: Window > Chart 2D/3D (new)                         |
