@@ -20,7 +20,7 @@
     - [What type of data is required to import a particular bone morphology?](#what-type-of-data-is-required-to-import-a-particular-bone-morphology)
     - [What is the source of your bone geometry data?](#what-is-the-source-of-your-bone-geometry-data)
 + [Validation](#validation)
-
+    - [what-type-of-experiments-do-you-recommend-to-perform-in-order-to-validate-results-obtained-with-the-modelsystem)
 
 
 
