@@ -1,3 +1,8 @@
++ [Model philosophy](#model-philosophy)
++ [Repository Model Structure](#repository-model-structure)
++ [Body Model Structure](#body-model-structure)
++ [The ShoulderArm Model](#the-shoulderarm-model)
+
 ## Model philosophy
 
 + Most research groups start with a problem and build a model to solve that particular problem
