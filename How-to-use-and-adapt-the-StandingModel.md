@@ -1,3 +1,11 @@
++ [Lets open the StandingModel.Main.Any file:](#lets-open-the-standingmodelmainany-file)
+    - [libdef](#libdef)
+    - [RunApplication](#runapplication)
+    - [HumanModel](#humanmodel)
+    - [Scaling](#scaling)
+    - [Lets have a look at the environment.any file:](#lets-have-a-look-at-the-environmentany-file)
+    - [Lets have a look at the mannequin.any file:](#lets-have-a-look-at-the-mannequinany-file)
+    - [Lets have a look at the study:](#lets-have-a-look-at-the-study)
 This document will explain the Standing Model. In particular, the structure, the different sequences and some key commands will be shown and discussed. Many explanations are compatible with other models. The AnyBody Modeling System v5.2 (AMS) and the AnyBody Managed Model Repository v1.5 (AMMR) are used in this example.
 
 
