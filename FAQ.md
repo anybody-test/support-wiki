@@ -23,7 +23,28 @@
     - [What type of experiments do you recommend to perform in order to validate results obtained with the model/system?](#what-type-of-experiments-do-you-recommend-to-perform-in-order-to-validate-results-obtained-with-the-modelsystem)
     - [How sensitive are the results to the number of muscles included in the model?](#how-sensitive-are-the-results-to-the-number-of-muscles-included-in-the-model)
     - [How do you know that the muscle forces and activation patterns computed by the system are correct?](#how-do-you-know-that-the-muscle-forces-and-activation-patterns-computed-by-the-system-are-correct)
-+ [Muscle recruitment](#Muscle-recruitment)
++ [Muscle recruitment](#muscle-recruitment)
+    - [Is muscle activation in your model the same as EMG? Is muscle activation calculated by the AnyBody system is a % of isometric MVC? Can EMG become an input into the model?](#is-muscle-activation-in-your-model-the-same-as-emg-is-muscle-activation-calculated-by-the-anybody-system-is-a--of-isometric-mvc-can-emg-become-an-input-into-the-model)
+    - [Which kind of inverse dynamics equation do you use? Kane or Lagrange, or Euler? Where do I find more detailed information about the dynamics equations you are using?](#which-kind-of-inverse-dynamics-equation-do-you-use-kane-or-lagrange-or-euler-where-do-i-find-more-detailed-information-about-the-dynamics-equations-you-are-using)
+    - [Can this software be used in forward dynamics calculation?](#can-this-software-be-used-in-forward-dynamics-calculation)
+    - [How is time varying activation dynamics included in the analysis?](#how-is-time-varying-activation-dynamics-included-in-the-analysis)
+    - [Does AnyBody include activation dynamics in the muscle modeling?](#does-anybody-include-activation-dynamics-in-the-muscle-modeling)
++ [Muscles/Ligaments](#musclesligaments)
+    - [Can I include elastic elements such as cartilage and ligaments in my model?](#can-i-include-elastic-elements-such-as-cartilage-and-ligaments-in-my-model)
+    - [How does the system incorporate any forces imposed by a muscle interacting with a bone (i.e. wrapping)?](#how-does-the-system-incorporate-any-forces-imposed-by-a-muscle-interacting-with-a-bone-ie-wrapping)
+    - [Can you get stress data for bones and color stress distribution like FEA software?](#can-you-get-stress-data-for-bones-and-color-stress-distribution-like-fea-software)
+    - [Are the material properties of the muscles, tendons, and bones included in the software?](#are-the-material-properties-of-the-muscles-tendons-and-bones-included-in-the-software)
+    - [Why should I run a calibration when using the 3 elements muscle model? And how does it work?](#why-should-i-run-a-calibration-when-using-the--elements-muscle-model-and-how-does-it-work)
+    - [What if a muscle model does not converge?](#what-if-a-muscle-model-does-not-converge)
++ [AnyBody Modeling system](#anybody-modeling-system)
+    - [Does the AnyBody Modeling System allow plug-ins? For example, can the user specify his own muscle model or apply a new analysis?](#does-the-anybody-modeling-system-allow-plugins-for-example-can-the-user-specify-his-own-muscle-model-or-apply-a-new-analysis)
+    - [Why did you choose to develop a text-based interface for constructing models rather than a graphical interface?](#why-did-you-choose-to-develop-a-textbased-interface-for-constructing-models-rather-than-a-graphical-interface)
+    - [Can I export computation data to my spreadsheet?](#can-i-export-computation-data-to-my-spreadsheet)
++ [Repository specific](#repository-specific)
+    - [Where can I find the unscaled/standard parameters of the body (segments size and mass)?](#where-can-i-find-the-unscaledstandard-parameters-of-the-body-segments-size-and-mass)
+    - [How do i read out reaction forces from a joint and which coordinate system is being used?](#how-do-i-read-out-reaction-forces-from-a-joint-and-which-coordinate-system-is-being-used)
+
+
 
 # Kinematics
 
