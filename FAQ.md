@@ -20,10 +20,10 @@
     - [What type of data is required to import a particular bone morphology?](#what-type-of-data-is-required-to-import-a-particular-bone-morphology)
     - [What is the source of your bone geometry data?](#what-is-the-source-of-your-bone-geometry-data)
 + [Validation](#validation)
-    - [What type of experiments do you recommend to perform in order to validate results obtained with the model/system?
-](#what-type-of-experiments-do-you-recommend-to-perform-in-order-to-validate-results-obtained-with-the-modelsystem)
-
-
+    - [What type of experiments do you recommend to perform in order to validate results obtained with the model/system?](#what-type-of-experiments-do-you-recommend-to-perform-in-order-to-validate-results-obtained-with-the-modelsystem)
+    - [How sensitive are the results to the number of muscles included in the model?](#how-sensitive-are-the-results-to-the-number-of-muscles-included-in-the-model)
+    - [How do you know that the muscle forces and activation patterns computed by the system are correct?](#how-do-you-know-that-the-muscle-forces-and-activation-patterns-computed-by-the-system-are-correct)
++ [Muscle recruitment](#Muscle-recruitment)
 
 # Kinematics
 
