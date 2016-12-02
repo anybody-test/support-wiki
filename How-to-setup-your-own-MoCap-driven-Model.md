@@ -5,7 +5,6 @@ The AnyBody Modeling System v5.2 (AMS) and the AnyBody Managed Model Repository 
     - [MotionAndParameterOptimization](#motionandparameteroptimization)
     - [InverseDynamics](#inversedynamics)
     - [How to setup the model?](#how-to-setup-the-model)
-Let’s open the TrialSpecific.any file and have a look at it:
     - [Lets open the TrialSpecific.any file and have a look at it:](#lets-open-the-trialspecificany-file-and-have-a-look-at-it)
     - [Lets open the EnvironmentAutoDetection.any file and have a look at it:](#lets-open-the-environmentautodetectionany-file-and-have-a-look-at-it)
 + [Possible Errors](#possible-errors)
