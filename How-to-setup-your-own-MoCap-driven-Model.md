@@ -1,5 +1,24 @@
 The AnyBody Modeling System v5.2 (AMS) and the AnyBody Managed Model Repository v1.5 (AMMR) are used in this example:
 
++ [What do you need to process your own C3D model?](#what-do-you-need-to-process-your-own-cd-model)
+    - [What is the structure of the GaitLowerExtremity example?](#what-is-the-structure-of-the-gaitlowerextremity-example)
+    - [MotionAndParameterOptimization](#motionandparameteroptimization)
+    - [InverseDynamics](#inversedynamics)
+    - [How to setup the model?](#how-to-setup-the-model)
+Let’s open the TrialSpecific.any file and have a look at it:
+    - [Lets open the TrialSpecific.any file and have a look at it:](#lets-open-the-trialspecificany-file-and-have-a-look-at-it)
+    - [Lets open the EnvironmentAutoDetection.any file and have a look at it:](#lets-open-the-environmentautodetectionany-file-and-have-a-look-at-it)
++ [Possible Errors](#possible-errors)
+    - [Missing markers](#missing-markers)
+    - [Missing calibration matrix definition](#missing-calibration-matrix-definition)
+    - [Model is kinematically unconstrained](#model-is-kinematically-unconstrained)
+    - [Kinematic analysis fails](#kinematic-analysis-fails)
+    - [What is the correct force plate type from the C3D files?](#what-is-the-correct-force-plate-type-from-the-cd-files)
+    - [Whats the difference between the ForcePlateType4AutoDetection.any and ForcePlateType4.any files?](#whats-the-difference-between-the-forceplatetypeautodetectionany-and-forceplatetypeany-files)
+    - [How to run MotionAndParameterOptimizationModel process using GaitLowerExtremity model if there are some missing markers on the upper body?](#how-to-run-motionandparameteroptimizationmodel-process-using-gaitlowerextremity-model-if-there-are-some-missing-markers-on-the-upper-body)
+    - [How to change my model when the lab coordinate system is different from that of the default GaitFullBody model?](#how-to-change-my-model-when-the-lab-coordinate-system-is-different-from-that-of-the-default-gaitfullbody-model)
+
+
 # What do you need to process your own C3D model?
 
 1. C3D file of the recorded trial: Many of our users have the Plug-In-Gait marker protocol. Different protocols are also applicable. Additional markers can easily be added to the model. Force data from Force Platforms is necessary to ensure a smooth processing of the trials.
