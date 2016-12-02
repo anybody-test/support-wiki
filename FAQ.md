@@ -38,7 +38,7 @@
     - [What if a muscle model does not converge?](#what-if-a-muscle-model-does-not-converge)
 + [AnyBody Modeling system](#anybody-modeling-system)
     - [Does the AnyBody Modeling System allow plug-ins? For example, can the user specify his own muscle model or apply a new analysis?](#does-the-anybody-modeling-system-allow-plugins-for-example-can-the-user-specify-his-own-muscle-model-or-apply-a-new-analysis)
-    - [Why did you choose to develop a text-based interface for constructing models rather than a graphical interface?](#why-did-you-choose-to-develop-a-textbased-interface-for-constructing-models-rather-than-a-graphical-interface)
+    - [Why did you choose to develop a text-based interface for constructing models rather than a graphical interface?](#why-did-you-choose-to-develop-a-text-based-interface-for-constructing-models-rather-than-a-graphical-interface)
     - [Can I export computation data to my spreadsheet?](#can-i-export-computation-data-to-my-spreadsheet)
 + [Repository specific](#repository-specific)
     - [Where can I find the unscaled/standard parameters of the body (segments size and mass)?](#where-can-i-find-the-unscaledstandard-parameters-of-the-body-segments-size-and-mass)
