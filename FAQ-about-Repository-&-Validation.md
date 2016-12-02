@@ -1,3 +1,13 @@
++ [Repository specific](#repository-specific)
+    - [Where can I find the unscaled/standard parameters of the body (segments size and mass)?](#where-can-i-find-the-unscaledstandard-parameters-of-the-body-segments-size-and-mass)
+    - [How do i read out reaction forces from a joint and which coordinate system is being used?](#how-do-i-read-out-reaction-forces-from-a-joint-and-which-coordinate-system-is-being-used)
++ [Validation](#validation)
+    - [What type of experiments do you recommend to perform in order to validate results obtained with the model/system?](#what-type-of-experiments-do-you-recommend-to-perform-in-order-to-validate-results-obtained-with-the-modelsystem)
+    - [How sensitive are the results to the number of muscles included in the model?](#how-sensitive-are-the-results-to-the-number-of-muscles-included-in-the-model)
+    - [How do you know that the muscle forces and activation patterns computed by the system are correct?](#how-do-you-know-that-the-muscle-forces-and-activation-patterns-computed-by-the-system-are-correct)
+
+
+
 # Repository specific
 
 ## Where can I find the unscaled/standard parameters of the body (segments size and mass)?
