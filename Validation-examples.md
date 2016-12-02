@@ -1,3 +1,11 @@
++ [Multi-body modelling of recumbent cycling: An optimisation of configuration and cadence](#multibody-modelling-of-recumbent-cycling-an-optimisation-of-configuration-and-cadence)
++ [Adjusting the Axle Placement in Wheelchair Users to Minimize Shoulder Joint Forces](#adjusting-the-axle-placement-in-wheelchair-users-to-minimize-shoulder-joint-forces)
++ [Spine pressure validation](#spine-pressure-validation)
++ [Validation references](#validation-references)
+    - [Webinars](#webinars)
+    - [Papers and conference presentations](#papers-and-conference-presentations)
+
+
 ## Multi-body modelling of recumbent cycling: An optimisation of configuration and cadence
 
 **Authors:** Pamela de Jong and Kenneth Meijer University of Eindhoven
