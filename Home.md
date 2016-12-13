@@ -1,6 +1,4 @@
-### AnyScript Support Wiki
-
-![anyscriptcommunity](https://cloud.githubusercontent.com/assets/22542671/20796898/d0ecfb1e-b7d8-11e6-9268-88e6408eea7a.jpg)
+## AnyScript Support Wiki
 
 This wiki is all about supporting the AnyScript modeling language
 
