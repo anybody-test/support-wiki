@@ -1,4 +1,4 @@
-## AnyScript Support Wiki
+# AnyScript Support Wiki
 
 This wiki is all about supporting the AnyScript modeling language
 
