@@ -208,13 +208,44 @@ Basic, type 3, 4 plates, no calibration matrix, sequence: touching plate A with 
 
 The ModelSetup file contains the marker topology of the data set. It links free floating markers with the markers on the human. Usually, there is no need to make major changes here. If you want to run your own C3D files with different marker names, you might have to change marker names and marker positions. This has to be done in the "Markers.any" file. Further instructions can be found in the file.
 
-// How it works: // // Marker on the Left Posterior Superior Iliac // CreateMarkerDriver LPSI ( // A marker on the skeleton is created! // MarkerName= LPSI, // Change the name here to the name of your Marker Protocol!: // MarkerPlacement=Trunk.SegmentsLumbar.PelvisSeg, // Marker is assigned to Pelvis Segment // OptX="Off", OptY="Off", OptZ="On", // Is the position of the Marker good, or does it need to be optimised? // // Please be aware that having to many Markers optimised can lead to model failure // WeightX=1.0,WeightY=1.0,WeightZ=1.0, // If you are convinced of the position of this Marker, you an increase the importance of it (weight) // Model1=MotionAndParameterOptimizationModel, // Model2= InverseDynamicModel, // sRelOptScalingOnOff="On" // Determine whether sRelOpt value will be scaled by the geometrical scaling funciton or not // ) = { // sRelOpt ={-0.06727544, -0.03, -0.045}; // Position of the Marker on the skeleton, relativ to the segment. Please adjust! // sRelOptDelta = {0, 0, 0} // This value is optional. This value will be optimized and you can set the initial guess if you want. // };
+```
+// How it works: 
+// 
+// Marker on the Left Posterior Superior Iliac 
+// CreateMarkerDriver LPSI ( 
+// A marker on the skeleton is created! 
+// MarkerName= LPSI, 
+// Change the name here to the name of your Marker Protocol!: 
+// MarkerPlacement=Trunk.SegmentsLumbar.PelvisSeg, 
+// Marker is assigned to Pelvis Segment 
+// OptX="Off", OptY="Off", OptZ="On", 
+// Is the position of the Marker good, or does it need to be optimised? 
+// 
+// Please be aware that having to many Markers optimised can lead to model failure 
+// WeightX=1.0,WeightY=1.0,WeightZ=1.0, 
+// If you are convinced of the position of this Marker, you an increase the importance of it (weight) 
+// Model1=MotionAndParameterOptimizationModel, 
+// Model2= InverseDynamicModel, 
+// sRelOptScalingOnOff="On" 
+// Determine whether sRelOpt value will be scaled by the geometrical scaling funciton or not 
+// ) = { 
+// sRelOpt ={-0.06727544, -0.03, -0.045}; 
+// Position of the Marker on the skeleton, relativ to the segment. Please adjust! 
+// sRelOptDelta = {0, 0, 0} 
+// This value is optional. This value will be optimized and you can set the initial guess if you want. 
+// };
 
 // Hip/Pelvis
 
-// Marker on the Left Posterior Superior Iliac CreateMarkerDriver LPSI ( MarkerName= LPSI, MarkerPlacement=Trunk.SegmentsLumbar.PelvisSeg, OptX="Off", OptY="Off", OptZ="On", WeightX=10.0,WeightY=10.0,WeightZ=10.0, Model1=MotionAndParameterOptimizationModel, Model2= InverseDynamicModel, sRelOptScalingOnOff="On" ) = {
-
-```
+// Marker on the Left Posterior Superior Iliac 
+CreateMarkerDriver LPSI (
+ MarkerName= LPSI,
+ MarkerPlacement=Trunk.SegmentsLumbar.PelvisSeg, 
+ OptX="Off", OptY="Off", OptZ="On",
+ WeightX=10.0,WeightY=10.0,WeightZ=10.0,
+ Model1=MotionAndParameterOptimizationModel,
+ Model2= InverseDynamicModel, sRelOptScalingOnOff="On" ) = 
+{
  sRelOpt ={-0.06727544, -0.03, -0.045};
 };
 ```
