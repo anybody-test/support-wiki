@@ -40,7 +40,7 @@ More Tips & Tricks can be found on the [AnyBody YouTube channel](http://www.yout
 * [[Validation examples]]
 * [[FAQ about Repository & Validation]]
 * [[How to setup your own MoCap driven Model]] (AMMRv1.5 GaitLower)
-* [[NEW: How to setup your own MoCap driven Model]] (AMMRv1.6 MoCap Model)
+* [[NEW How to setup your own MoCap driven Model]] (AMMRv1.6 MoCap Model)
 * [[How to use and adapt the StandingModel]]
 * [[Loading AMMR 1.5 models in AMS 6.0]]
 * [[How to make a KneeBend Model from a template]]
